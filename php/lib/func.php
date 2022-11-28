@@ -50,7 +50,7 @@
 
 			echo "
 				<div>
-					<a href='./php/$table/view.php?table=$table&num=$num&page=$page&scale=$scale&mode2=$mode2'>
+					<a href='./php/$table/view.php?table=$table&num=$num&page=1&scale=10&listmode='>
 					<dl class='col1'>
 						<dt>$subject</dt>
 						<dd>$content

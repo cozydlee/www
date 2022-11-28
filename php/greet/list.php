@@ -2,8 +2,7 @@
 	session_start(); 
 ?>
 <!DOCTYPE HTML>
-<html>
-
+<html lang="ko">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -108,7 +107,7 @@
 						</div>
 						<div id="list_search4"><input type="text" name="search"></div>
 						<!-- 역할은 submit -->
-						<div id="list_search5"><input type="image" src="./image/search.svg"></div>
+						<div id="list_search5"><input type="image" src="./image/search.svg" alt="검색"></div>
 					</div>
 				</form>
 
@@ -163,20 +162,20 @@
 	  $item_subject = str_replace(" ", "&nbsp;", $row[subject]);
 
 ?>
-					<div id="list_item">
-						<div id="list_item1">
+					<div class="list_item">
+						<div class="list_item1">
 							<?= $number ?>
 						</div>
-						<div id="list_item2"><a href="view.php?num=<?=$item_num ?>&page=<?=$page ?>&scale=<?=$scale ?>&listmode=<?=$listmode?>">
+						<div class="list_item2"><a href="view.php?num=<?=$item_num ?>&page=<?=$page ?>&scale=<?=$scale ?>&listmode=<?=$listmode?>">
 								<?= $item_subject ?>
 							</a></div>
-						<div id="list_item3"> <span> 작성자: </span>
+						<div class="list_item3"> <span> 작성자: </span>
 							<?= $item_nick ?>
 						</div>
-						<div id="list_item4"> <span> 작성일: </span>
+						<div class="list_item4"> <span> 작성일: </span>
 							<?= $item_date ?> 
 						</div>
-						<div id="list_item5"> <span> HIT: </span>
+						<div class="list_item5"> <span> HIT: </span>
 							<?= $item_hit ?>
 						</div>
 					</div>
@@ -245,8 +244,8 @@
 					$('#list_title6').addClass('box');
 					$('#list_content').addClass('box');
 					$('#list_content div').addClass('box');
-					$('#list_item div').addClass('box');
-					$('#list_item div span').addClass('box');
+					$('.list_item div').addClass('box');
+					$('.list_item div span').addClass('box');
 					$('#page_button').addClass('box');
 				</script>
 			";

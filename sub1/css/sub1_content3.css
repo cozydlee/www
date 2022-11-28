@@ -5,8 +5,6 @@
 .swiper-slide img {display: block;width: 100%;}
 .mySwiper {width: 40%; float: left;}
 .reverse .mySwiper {width: 40%; float: right;}
-.swiper-pagination {color: #edad14; font-size: 2em; background-color: #fff; border: 2px solid #edad14;
-    box-sizing: border-box;}
 
 #content .contentArea {overflow: hidden; position: relative;}
 #content .contentArea .void{margin-top: 150px;}

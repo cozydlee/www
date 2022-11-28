@@ -111,45 +111,45 @@
 	height:600px;
 }
 
-#list_item {
+.list_item {
 	height:36px;
 	margin-top:2px;
 	padding:6px;  
 	border-bottom:solid 1px #eeeeee;
 }
 
-#list_item #list_item1{
+.list_item .list_item1{
 	float:left;
 	width:68px;
 	text-align:center;
 }
 
-#list_item #list_item2{
+.list_item .list_item2{
 	float:left;
 	width:750px;
 	text-align: left;
 }
 
-#list_item #list_item3{
+.list_item .list_item3{
 	float: left;
     width: 136px;
     text-align: center;
     margin-right: 10px;
 }
 
-#list_item #list_item4{
+.list_item .list_item4{
 	float:left;
 	width:169px;
 	text-align:center;
 }
 
-#list_item #list_item5{
+.list_item .list_item5{
 	float:left;
 	width:40px;
 	text-align:center;
 }
 
-#list_item #list_item3 span, #list_item #list_item4 span, #list_item #list_item5 span{
+.list_item .list_item3 span, .list_item .list_item4 span, .list_item .list_item5 span{
 	display: none;
 }
 
@@ -201,22 +201,22 @@
     display: flex;
     flex-wrap: wrap;}
 
-#list_item.box{height: 293px;
+.list_item.box{height: 293px;
     margin-top: 2px;
     padding: 6px;
     width: 588px;
 }
 
-#list_item #list_item1.box{float: left;
+.list_item .list_item1.box{float: left;
     width: 68px;
     text-align: center;}
 
-#list_item #list_item2.box{float: left;
+.list_item .list_item2.box{float: left;
     width: 468px;
     text-align: center;
 }
 
-#list_item #list_item3.box{
+.list_item .list_item3.box{
 	float: none;
 	width: 136px;
     text-align: center;
@@ -226,7 +226,7 @@
     left: 21px;
 }
 
-#list_item #list_item4.box{
+.list_item .list_item4.box{
 	float: none;
 	width: 232px;
     text-align: center;
@@ -236,7 +236,7 @@
     top: 0px;
 }
 
-#list_item #list_item5.box{
+.list_item .list_item5.box{
 	width: 60px;
     text-align: center;
     position: relative;
@@ -246,7 +246,7 @@
 	float: none;
 }
 
-#list_item #list_item3 span.box, #list_item #list_item4 span.box, #list_item #list_item5 span.box{
+.list_item .list_item3 span.box, .list_item .list_item4 span.box, .list_item .list_item5 span.box{
 	display: inline;
 }
 
