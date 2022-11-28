@@ -70,7 +70,7 @@
     margin-bottom: 15px;
     overflow: hidden;}
 
-.list_count select{font-size: 1em;
+.list_count select{font-size: .7em;
     float: right;}
 
 #list_top_title {
@@ -79,7 +79,7 @@
 	border-top:solid 2px #aaaaaa;
 	background-color:#eeeeee;
 	margin-bottom:3px;
-	font-size: 1.8em;
+	font-size: 1.2em;
     font-weight: 600;
 }
 
@@ -88,7 +88,7 @@
 }
 
 #list_top_title #list_title1 {
-	margin-left:5px;
+	margin-left:15px;
 }
 
 #list_top_title #list_title2 {
@@ -96,18 +96,18 @@
 }
 
 #list_top_title #list_title3 {
-	margin-left: 355px;
+	margin-left:400px;
 }
 
 #list_top_title #list_title4 {
-	margin-left:77px;
+	margin-left:103px;
 }
 
 #list_top_title #list_title5 {
-	margin-left:26px;
+	margin-left:54px;
 }
 
-#list_content {font-size: 1.8em;
+#list_content {font-size: 1.2em;
 	height:600px;
 }
 
@@ -127,7 +127,7 @@
 #list_item #list_item2{
 	float:left;
 	width:750px;
-	text-align: center;
+	text-align: left;
 }
 
 #list_item #list_item3{
@@ -160,7 +160,7 @@
 #page_button #button a{border: 1px solid #ccc;
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: .59em;}
+    font-size: .8em;}
 
 #page_num {
 	float:left;
@@ -196,7 +196,7 @@
 
 #list_title6.box{display: block; text-align: center;}
 
-#list_content.box{font-size: 1.8em;
+#list_content.box{font-size: 1.2em;
     height: 100%;
     display: flex;
     flex-wrap: wrap;}
@@ -265,11 +265,11 @@
 	padding-top:7px;  
 	border-top:solid 2px #aaaaaa;
 	background-color:#eeeeee;
-	font-size: 1.8em;
+	font-size: 1.2em;
 }
 
 #write_form {
-	font-size: 1.8em;
+	font-size: 1.2em;
 }
 
 #write_form #write_row1 {
@@ -367,7 +367,7 @@
 	border-top:solid 2px #aaaaaa;
 	background-color:#eeeeee;
 	margin-bottom:5px;
-	font-size: 1.8em;
+	font-size: 1.2em;
     position: relative;
 }
 
@@ -390,7 +390,7 @@
 	line-height:150%;
 	border-bottom:solid 1px #cccccc;
 	margin-top: 60px;
-    font-size: 1.8em;
+    font-size: 1.2em;
 }
 
 #view_button {

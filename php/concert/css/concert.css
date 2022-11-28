@@ -69,10 +69,10 @@
 	width: 10%;
     float: right;
     margin-top: 5px;
-    margin-right: 5px;
+    margin-right: -2px;
 }
 
-.list_count{font-size: 1.8em;
+.list_count{font-size: 1.2em;
     margin-bottom: 15px;
     overflow: hidden;}
 
@@ -85,7 +85,7 @@
 	border-top:solid 2px #aaaaaa;
 	background-color:#eeeeee;
 	margin-bottom:3px;
-	font-size: 1.8em;
+	font-size: 1.2em;
     font-weight: 600;
 }
 
@@ -117,7 +117,7 @@
 
 #big_picture img{margin-left: 29px;}
 
-#list_content {font-size: 1.8em;
+#list_content {font-size: 1.2em;
 	height: 1340px;
 }
 
@@ -160,7 +160,7 @@
 }
 
 #list_item2 span{
-	font-size: .5em;
+	font-size: .7em;
     position: relative;
     right: 15px;
     padding: 1%;
@@ -174,7 +174,7 @@
 #page_button #button a{border: 1px solid #ccc;
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: .59em;}
+    font-size: .8em;}
 
 #page_num {
 	float:left;
@@ -210,13 +210,13 @@
 	padding-top:7px;  
 	border-top:solid 2px #aaaaaa;
 	background-color:#eeeeee;
-	font-size: 1.8em;
+	font-size: 1.2em;
 }
 
 #write_form {
 	margin-top:10px;
 	overflow:hidden;
-	font-size: 1.8em;
+	font-size: 1.2em;
 }
 
 #write_form #write_row1 {
@@ -371,7 +371,7 @@
 	border-top:solid 2px #aaaaaa;
 	background-color:#eeeeee;
 	margin-bottom:5px;
-	font-size: 1.8em;
+	font-size: 1.2em;
     position: relative;
 }
 
@@ -394,7 +394,7 @@
 	line-height:150%;
 	border-bottom:solid 1px #cccccc;
 	margin-top: 60px;
-    font-size: 1.8em;
+    font-size: 1.2em;
 }
 
 #content_img{overflow: hidden;}

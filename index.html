@@ -232,32 +232,8 @@
             </section>
             <section class="announce">
                 <h3>공지사항</h3>
-                <ul>
-                        <li>
-                            <div>
-                                <a href="./php/greet/list.php">
-                                <dl>
-                                    <dt>‘이 땅의 자연유산 천연기념물과 함께' 특별전시회 개최	</dt>
-                                    <dd>본 협회에서는 2003년부터 문화재청과 함께 ‘이 땅의 자연유산 천연기념물과 함께’라는 주제로 천연기념물의 ...
-                                        <span>2022-07-09</span>
-                                    </dd>
-                                </dl>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="./php/greet/list.php">
-                                <dl>
-                                    <dt>2022년도 지회 국고 보조금사업 교부결정 지급 발송공문</dt>
-                                    <dd>올해 전국 지회 교부금이 결정되어 각 지회로 공문을 발송하였습니다. 첨부한 서류를 작성하여 중앙회로 우편 ...
-                                        <span>2022-07-09</span>
-                                    </dd>
-                                </dl>
-                                </a>
-                            </div>
-                        </li>
-                </ul>
+                <? include "./php/lib/func.php"; ?>
+                <? latest_article("greet",2,30,120); ?>
                 <a href="./php/greet/list.php">
                 <i class="fa-solid fa-circle-plus" title="더보기"></i>
                 <span class="hidden">더보기</span>
