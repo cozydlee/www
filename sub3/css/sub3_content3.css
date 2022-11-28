@@ -1,0 +1,22 @@
+.slogunC p{font-size: 1.3em; text-align: center; color: #666; margin: 80px 0;}
+
+.video_content iframe{margin-left: 50px;}
+.birdStrike li{line-height: 1.5em; font-size: 1.25em; margin: 50px 50px; text-align: justify;}
+
+.alter {overflow: hidden; margin-bottom: 100px;}
+.alter h3{text-align: center; font-size: 2.5em; margin: 100px;}
+.alter ul{overflow: hidden; margin: 400px 0 100px;}
+.alter ul::after{content:''; width: 600px; height: 600px; z-index: -2;
+            display: block; position: absolute; margin-left: 290px; margin-top: -190px;
+           border: #edad14 solid 5px; border-radius: 400px;}
+.alter li {font-size: 1.5em; text-align: center;background-color: #edad14; 
+    border-radius: 50px; color: #fff; width: 270px; margin: 300px 0 100px; padding: 10px 0;}
+.alter li::after{content:''; border-radius: 200px; position: absolute; 
+    width: 350px; height: 350px; z-index: -1; margin-left: -270px; margin-top: -250px;}
+.alter li:nth-child(1){margin: 0 475px; margin-bottom: 80px;}
+.alter li:nth-child(1)::after{background: url(../images/content3/campaign01.jpg) no-repeat;}
+.alter li:nth-child(2){float: left; margin-left: 150px;}
+.alter li:nth-child(2)::after{background: url(../images/content3/campaign02.jpg) no-repeat;}
+.alter li:nth-child(3){float: right;margin-right: 150px;}
+.alter li:nth-child(3)::after{background: url(../images/content3/campaign03.jpg) no-repeat;}
+.alter p{line-height: 1.5em; font-size: 1.25em; margin: 50px 50px;text-align: justify;}

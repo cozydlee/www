@@ -1,0 +1,27 @@
+/* 협회업무 본문영역 */
+#content h3{color: #ffb400; font-size: 3.125em;}
+#content .ideology span, .activity p{display: block;color: #333; font-size: 1.125em; margin: 30px 0 90px 0;}
+
+#content .slogan{font-size: 1.8em; text-align: center; color: #666; margin: 70px 0 150px 0;}
+
+#content .ideology{overflow: hidden;}
+#content .ideology ul{float: left;}
+#content .ideology p{font-size: 1.25em; width: 490px; text-align: justify; line-height: 1.7em;}
+#content .ideology div{float: right; margin-bottom: 140px; overflow: hidden; border-radius: 50px;}
+#content .ideology div img{transition: all .5s ease-out;}
+#content .ideology div img:hover{transform: scale(1.3);}
+
+#content .activity{background-color: #f8f8f8; width: 200%; 
+    left: 50%; margin-left: -50%; text-align: center;}
+#content .activity h3{padding-top: 100px;   }
+#content .activity ul{margin: 0 600px; overflow: hidden;}
+#content .activity .actCaption{float: left; width: 380px; margin: 0 10px 150px; border-radius: 40px; 
+    box-shadow: 2px 8px 8px 0px rgba(0,0,0,.3); position: relative;}
+#content .activity dl{position: absolute; top: 0; width: 384px; height: 100%;
+    transition: all .9s ease-out; color: #333;}
+#content .activity .actCaption:hover dl{background: rgba(237, 173, 20,.9);}
+#content .activity dt{font-size: 1.6em; font-weight: bold; margin: 60px 40px 0; background: rgba(255,255,255,.7);
+                        padding: 13px 0; border-radius: 30px;}
+#content .activity dd{font-size: 1.125em; text-align: justify; line-height: 2em; padding: 70px 70px; height: 90px;
+    opacity: 0; transition: all .5s ease-out; font-weight: 600;}
+#content .activity .actCaption:hover dd{opacity: 100%;}

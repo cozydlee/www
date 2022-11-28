@@ -1,0 +1,19 @@
+#content .slogan{font-size: 1.3em; text-align: center; color: #666; margin: 70px 0 150px 0;}
+
+.birdMove {overflow: hidden;}
+.birdMove h3{font-size: 2.5em; font-weight: 500;}
+.birdMove h3::after{content: '';display: block; height: 7px; width: 400px; 
+    background: #edad14; margin-top: 30px;}
+.birdMove p{float: left; font-size: 1.25em; width: 490px; text-align: justify; 
+    line-height: 1.7em; margin-top: 30px;}
+.birdMove img{float: right; background: url(../images/content1/birds.jpg) center; margin-top: -80px; 
+    background-attachment: fixed;}
+
+.migraTory {overflow: hidden; margin-bottom: 200px;}
+.migraTory h3{text-align: center; font-size: 2.5em; font-weight: 500; margin: 100px 0; overflow: hidden;}
+.migraTory div{float: left; margin-left: 40px; margin-bottom: 20px;}
+.migraTory img{margin-bottom: 20px;}
+.migraTory dl{width:500px; margin-left: 30px;}
+.migraTory dt{font-size: 1.5em; text-align: center;background: #edad14; 
+    border-radius: 50px; color: #fff; margin-bottom: 20px; padding: 10px 0;}
+.migraTory dd{line-height: 1.5em; font-size: 1.2em; text-align: left; text-align: justify; }

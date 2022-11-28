@@ -1,0 +1,39 @@
+#content{width: 800px;
+      margin: 0 auto;
+      margin-top: 45px;
+      margin-bottom: 80px;}
+body{background: url(../images/id_back.jpg) no-repeat center 53%; background-size: cover;
+      background-attachment: fixed;}
+.logo{margin: 50px 42.6% 0; display: block; width: 113px; height: 49px;}
+
+article{position: relative; backdrop-filter: brightness(0.5); padding: 35px 0;}
+h2{   font-size: 28px;
+      margin-bottom: 20px;
+      color: #fff;
+      margin-left: 71px;}
+h2::before{content: '';
+      position: absolute;
+      top: 13px;
+      left: 18px;
+      width: 68px;
+      height: 90px;
+      background: url(../../../common/images/headerLogo.png) no-repeat;
+      transform: scale(.5);}
+
+table{width: 90%; margin: 0 5%;}
+th,td{border: 1px solid #ccc; padding: 10px; color: #fff;}
+th{width: 20%; }
+td{width: 80%}
+input, select{padding: 5px; border-radius: 2px;
+      font-size: 1.5em; border: 0; background: #f0f0f0}
+input{width: 98%; }
+input:focus{outline: 2px solid #edad14;}
+#hp2, #hp3{width: 38.85%;}
+#hp3{margin-top: 10px;}
+#email1, #email2{width: 46%;}
+table tr:last-child td{text-align: center; padding: 20px 0}
+
+td a{text-align: center;margin-top: 30px; display: inline-block;width: 200px;line-height: 24px;padding: 8px 0;border: none;background: #edad14;color: #fff;font-size: 14px;cursor: pointer;
+    margin: 0 5px;}
+
+span{color: #edad14;}

@@ -1,0 +1,28 @@
+#content h3{font-size: 3.125em; text-align: center;}
+#content p{text-align: justify; margin: 70px 300px 130px; font-size: 1.3em;
+    line-height: 1.5em; color: #666;}
+
+#content .rescue {overflow: hidden; margin: 120px 0;}
+#content .rescue li{float: left; width: 300px; margin: 0 49px 20px; overflow: hidden; border-radius: 50px;
+    box-shadow: 2px 8px 8px 0px rgba(0,0,0,.3);}
+#content .rescue li img{transition: all .5s ease-out;}
+#content .rescue li img:hover{transform: scale(1.2);}
+
+#content .accuse {overflow: hidden; margin: 170px 0; background-color: #f1f1f1; height: 310px;
+                    border-radius: 50px; position: relative; z-index: 1;}
+#content .accuse h3::after{content: ''; position: absolute; top: -200px; left: -70px; background: #ff8a00;
+                        width: 700px; height: 700px; z-index: -2; 
+                        border-radius: 500px;}           
+#content .accuse h3{float: left; margin-left: 200px; margin-top: 20px; color: #fff;}
+#content .accuse ul{float: right; line-height: 2em; margin-right: 110px; 
+                    margin-top: 20px;}
+#content .accuse ul::after{content: ''; position: absolute; top: -50px; left: -130px; 
+    background: url(../images/content1/contract.png) no-repeat; width: 600px; height: 600px;
+    transform: scale(.5); z-index: -1; transition: all .7s; transition-delay: .3s;}
+#content .accuse:hover pre::after{transform: scale(.7); transition: all .7s;}
+
+#content .rescue_center{overflow: hidden;}
+#content .rescue_center table{float: left; width: 47%; margin: 0 15px 50px 20px; font-size: 1.125em;}
+#content .rescue_center caption{background-color: #edad14; color: #fff; padding: 10px 0;}
+#content .rescue_center th{width: 20%; padding: 30px 0; border: 1px solid #edad14; border-left: 0;}
+#content .rescue_center td{border: 1px solid #edad14; border-right: 0;padding-left: 10px;}

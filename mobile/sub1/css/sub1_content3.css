@@ -1,0 +1,30 @@
+#content h3{text-align: center;
+    margin-bottom: 20px;
+    margin-top: 45px; margin-left: -3%;}
+
+.maps{margin-left: 3%;}
+#content .maps em{font-style: normal;}
+#content .maps #home{width: 97%; height: 300px; background: url(../images/content3/maps.png) no-repeat center;
+    margin-bottom: 45px; border-radius: 8px;}
+
+#content .maps .mapAdress dd{margin-top: 30px;}
+#content .maps .mapAdress dd,.maps dt{font-size: 1.5rem;}
+
+#content .maps .mapAdress {margin-bottom: 45px; position: relative}
+#content .maps .mapAdress::after{content: ''; width: 100%; height: 2px;background-color: #ffb400;
+                                position: absolute; left: 0; bottom: -23px;}
+#content .maps .mapAdress dt, .maps p{font-size: 1.875rem; font-weight: 600;}
+
+#content .maps .train, .bus{margin-bottom: 45px;}
+#content .maps .train dt{padding-right: 40px;}
+.train dd, .bus dd{margin-top: 7px; font-size: 1.5rem;}
+.train dl, .train dd{margin-top: 25px;}
+#content .maps .train span, .train em {display: block;background: rgb(56, 109, 232); 
+                            border-radius: 50%; width: 25px; height: 25px;
+                            text-align: center; font-weight: bold; float: left; margin-right: 5px; color: white;}
+#content .maps .train em{background: rgb(44, 158, 222);}
+
+#content .maps .bus{line-height: 50px; overflow: hidden;}
+
+#content .maps .bus em{display: block; padding-left: 60px; font-size: 1.5rem;}
+#content .maps .bus span{background: #6175F5; margin: 0 10px 0 60px; color: white;}

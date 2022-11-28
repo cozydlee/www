@@ -1,0 +1,194 @@
+<?
+           session_start();
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>후원안내-회원안내</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content1.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/43cec56aae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <? include "../common/sub_header.html" ?>
+        <div class="main">
+            <h3>후원안내</h3>
+        </div>
+
+        <div class="subNav">
+            <ul>
+                <li><a class="current" href="#">회원안내</a></li>
+                <li><a href="../sub5/sub5_2.html">후원설명</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="titleArea">
+                <div class="lineMap">
+                    <i class="fa-solid fa-house"></i> &gt; <span>한국조류보호협회</span> &gt;
+                    <span>후원안내</span> &gt; <strong>회원안내</strong>
+                </div>
+                <h2>회원안내</h2>
+            </div>
+            <div class="contentArea">
+              <section class="member">
+                    <h3><a href="#" class="tab tab1">회원가입자격</a></h3>
+                    <div class="contlist">
+                    <p>본회의 설립 목적에 찬동하여 회원이 되고자 하는 사람은 누구나 회원이 될 수 있다.</p>
+                    <ul>
+                        <li>1. 본회의 회원은 정회원, 준회원, 학생회원으로 한다.</li>
+                        <li>2. 회원은 회비를 납부하는 정회원과
+                            회비를 납부하지 아니하는 준회원으로 구분하고
+                            초등학생, 중ㆍ고등학교 학생 또는 이에 준하는 연령의
+                            청소년은 학생회원으로 한다.</li>
+                        <li>3. 본회의 정회원이 되고자 하는 자는 가입신청서를 제출하고,
+                            소정의 입회서와 회비를 납입하여야 한다.</li>
+                    </ul>
+                    <a href="./file/가입신청서.hwp">가입신청서 양식</a>
+                </div >
+              </section>
+              <section class="duty">
+                <h3><a href="#" class="tab tab2">회원의 의무와 권리</a></h3>
+                <div class="contlist">
+                    <p>회원은 총회를 통하여 본회의 운영에 참여할 권리를 갖는다. 다만 총회에서의 의결권은 정회원만이 갖는다.
+                        또한 회원은 다음의 각 호의 1에 해당하는 의무를 진다.</p>
+                     <ul>
+                         <li>1. 본회의 정관 및 규약의 준수</li>
+                         <li>2. 총회 및 이사회 결의사항의 준수</li>
+                         <li>3. 회비 등 제부담금의 납부</li>
+                     </ul>
+                </div>
+              </section>
+              <section class="disable">
+                <h3><a href="#" class="tab tab3">회원 탈퇴 및 자격상실</a></h3>
+                <div class="contlist">
+                    <p>회원이 탈퇴를 하고자 할 때는 탈퇴서를 제출하여야 한다.
+                        다만, 부득이한 사정으로 탈퇴서를 제출하지 못하고 탈퇴의 뜻을 통고하면 탈퇴한 것으로 본다.</p>
+                    <p>다음의 각 호의 1에 해당하는 경우에는 회원의 자격을 상실한다.</p>
+                        <ul class="SlideMenu">
+                            <li>1. 본인이 탈퇴신고를 한 때.</li>
+                            <li>2. 사망한 때.</li>
+                            <li>3. 본회의 명예를 훼손하거나 재산상의 손해를 입혀 이사회에서 제명하기로 의결하였을 때.
+                            </li>
+                            <li>4. 정회원이 1년 이상의 회비납부의 의무를 이행하지 아니한 때는 준회원이 된다.
+                            </li>
+                        </ul>
+                </div>
+              </section>
+              <section class="club">
+                <h3><a href="#" class="tab tab4">소모임 안내</a></h3>
+                <div class="contlist">
+                    <p>소모임은 이웃, 동물, 환경이라는 세 가지의 테마 중 가장 관심이 깊은 대상을
+                        최소 한 가지 선택하여 개성 있는 프로젝트를 자발적으로 기획합니다.
+                        소모임을 위한 다양한 참여 프로그램에 대한 소식을 우선적으로 전해 드립니다.</p>
+                    <ul>
+                        <li>이 웃</li>
+                        <li>동 물</li>
+                        <li>사 랑</li>
+                    </ul>
+                <div id="form1">
+                <form action="a.php" method="post">
+                   <p>소모임 개설하기</p> 
+                   <table>
+                      <caption>신규 개설하시면 팀장의 이메일 주소로 웰컴 메일을 보내드립니다. 메일을 확인하셔야 접수가 완료됩니다.</caption>
+                      <tbody>
+                        <tr>
+                           <th scope="row">팀명</th>
+                           <td>
+                              <input type="text" title="팀명" value="" required>
+                           </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">팀웹사이트</th>
+                          <td>
+                             <input type="url" title="팀웹사이트" value="" required> 
+                          </td>
+                       </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                      <thead>
+                         <tr>
+                           <th scope="row" colspan="3">팀원 정보</th>
+                           <td colspan="3">1인 소모임 가입과 활동도 가능합니다.</td>
+                         </tr>
+                         <tr>
+                            <th>No</th>
+                            <th>팀원이름</th>
+                            <th>소속</th>
+                            <th>생년월일</th>
+                            <th>이메일</th>
+                            <th>휴대폰</th>
+                         </tr>
+                      </thead>
+                      <tbody class="form-main">
+                        <tr>
+                            <th>팀장</th>
+                            <td><input type="text" id="name" placeholder="이름"><label for="name">이름</label></td>
+                            <td><input type="text" id="job"  placeholder="소속"><label for="job">소속</label></td>
+                            <td><input type="text" id="birth"  placeholder="생년월일"><label for="birth">생년월일</label></td>
+                            <td><input type="text" id="email"  placeholder="이메일"><label for="email">이메일</label></td>
+                            <td><input type="text" id="phone"  placeholder="휴대폰"><label for="phone">휴대폰</label></td>
+                        </tr>
+                        <tr>
+                            <th>팀원</th>
+                            <td><input type="text" id="name2" placeholder="이름"><label for="name2">이름</label></td>
+                            <td><input type="text" id="job2"  placeholder="소속"><label for="job2">소속</label></td>
+                            <td><input type="text" id="birth2"  placeholder="생년월일"><label for="birth2">생년월일</label></td>
+                            <td><input type="text" id="email2"  placeholder="이메일"><label for="email2">이메일</label></td>
+                            <td><input type="text" id="phone2"  placeholder="휴대폰"><label for="phone2">휴대폰</label></td>
+                        </tr>
+                        <tr>
+                            <th>팀원</th>
+                            <td><input type="text" id="name3" placeholder="이름"><label for="name3">이름</label></td>
+                            <td><input type="text" id="job3"  placeholder="소속"><label for="job3">소속</label></td>
+                            <td><input type="text" id="birth3"  placeholder="생년월일"><label for="birth3">생년월일</label></td>
+                            <td><input type="text" id="email3"  placeholder="이메일"><label for="email3">이메일</label></td>
+                            <td><input type="text" id="phone3"  placeholder="휴대폰"><label for="phone3">휴대폰</label></td>
+                        </tr>
+                        <tr>
+                            <th>팀원</th>
+                            <td><input type="text" id="name4" placeholder="이름"><label for="name4">이름</label></td>
+                            <td><input type="text" id="job4"  placeholder="소속"><label for="job4">소속</label></td>
+                            <td><input type="text" id="birth4"  placeholder="생년월일"><label for="birth4">생년월일</label></td>
+                            <td><input type="text" id="email4"  placeholder="이메일"><label for="email4">이메일</label></td>
+                            <td><input type="text" id="phone4"  placeholder="휴대폰"><label for="phone4">휴대폰</label></td>
+                        </tr>
+                        <tr>
+                            <th>팀원</th>
+                            <td><input type="text" id="name5" placeholder="이름"><label for="name5">이름</label></td>
+                            <td><input type="text" id="job5"  placeholder="소속"><label for="job5">소속</label></td>
+                            <td><input type="text" id="birth5"  placeholder="생년월일"><label for="birth5">생년월일</label></td>
+                            <td><input type="text" id="email5"  placeholder="이메일"><label for="email5">이메일</label></td>
+                            <td><input type="text" id="phone5"  placeholder="휴대폰"><label for="phone5">휴대폰</label></td>
+                        </tr>
+                        <tr class="form-block">
+                            <th>팀원</th>
+                            <td><input type="text" id="name6" placeholder="이름"><label for="name6">이름</label></td>
+                            <td><input type="text" id="job6"  placeholder="소속"><label for="job6">소속</label></td>
+                            <td><input type="text" id="birth6"  placeholder="생년월일"><label for="birth6">생년월일</label></td>
+                            <td><input type="text" id="email6"  placeholder="이메일"><label for="email6">이메일</label></td>
+                            <td><input type="text" id="phone6"  placeholder="휴대폰"><label for="phone6">휴대폰</label></td>
+                        </tr>
+                      </tbody>
+                      </table>
+                      <button class="add-more-btn">추가</button>
+                      <button class="remove-more-btn">제거</button>
+                      <input type="submit">
+                </form>
+                </div>
+                </div>
+            </section>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+        <script src="../sub5/js/formAdd.js"></script>
+        <script src="../common/js/tab.js"></script>
+</body>
+</html>

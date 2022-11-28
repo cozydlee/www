@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>MUSIC</title>
+<link rel="shortcut icon"  type="image/x-icon"  href="elvis.ico">
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+
+
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/layout_sub.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/43cec56aae.js" crossorigin="anonymous"></script>
+<script>
+	// <![CDATA[
+		try {
+			window.addEventListener('load', function(){
+	    	    setTimeout(scrollTo, 0, 0, 1); 
+	    	}, false);
+		} catch(e) {}
+	// ]]>
+</script>
+</head>
+
+<body>
+	<div id="skipNav">
+	   <a href="#content">본문바로가기</a>
+	   <a href="#gnb">네비게이션바로가기</a>
+   </div>
+
+   <div id="wrap">
+	<div class="imgBox">
+			<img src="./sub_imges/sub3_back.jpg"  id="imgBG1"></img>
+			<img src="./sub_imges/sub3_back2.jpg" id="imgBG2">			
+			<a class="down" href="#"> <img src="./images/TCBlogo.png" alt="#"><span>SCROLL DOWN</span></a>
+	</div>
+	
+	<div class="box"></div>
+	<header id="headerArea">
+	  <div class="headerInner">
+		  <h1><a href="./index.html">elvis logo</a></h1>
+		  <a href="#" class="menubtn"><i class="fa fa-bars" aria-hidden="true"></i></a>
+		  <nav id="gnb">
+			<h2 class="hidden">네비게이션영역</h2> 
+		  	 <ul>
+				<li><h3><a href="./sub1.html">ABOUT</a></h3></li>
+				<li><h3><a href="./sub2.html">CAST</a></h3></li>
+				<li><h3><a href="#">MUSIC</a></h3></li>
+				<li><h3><a href="./sub4.html">GALLERY</a></h3></li>
+		  	 </ul>
+			 <a href="#" class="close"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+		  </nav>
+		</div>
+	</header>
+	
+	<article id="content">
+		<h2>MUSIC</h2>
+			<section class="artist">
+					<h3>ARTIST</h3>
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<span>Doja Cat</span>
+								<p>On April 25, 2022, it was announced that Doja Cat would contribute an original song for the film "Vegas", that incorporates elements from Presley's own songs, such as his cover of Big Mama Thornton's "Hound Dog". It was released as a single on May 6, 2022. The music video of the track was released on June 3, featuring Cat along with a cameo by Shonka Dukureh, who plays Thornton in the film and his cover was incorporated in the song</p>
+							</div>
+							<div class="swiper-slide">
+								<span>Eminem</span>
+								<p>On May 23, 2022, rapper Eminem announced on his Instagram that he and CeeLo Green will collaborate on a new track titled "The King and I" which will be produced by Dr. Dre and will appear on the film's soundtrack. The single, prior to its release on June 16, 2022, was unveiled as a first listen in the 2022 Cannes Film Festival. The track sampled Presley's "Jailhouse Rock". The lyrics describe on the rise and fall of Presley, from catapulting to stardom to his arrest".</p>
+							</div>
+							<div class="swiper-slide">
+								<span>Swae Lee</span>
+								<p>The single "Tupelo Shuffle" performed by Swae Lee and Diplo was released on June 3, 2022. Lee and Diplo further performed the track at the 2022 MTV Movie & TV Awards on June 5. Butler's rendition of "Trouble" was released as the single on June 10.</p>
+							</div>
+							<div class="swiper-slide">
+								<span>Måneskin</span>
+								<p>Italian band Måneskin are also part of the soundtrack with their respective cover versions of "If I Can Dream".  The tracks were released as singles on June 16 and 22, respectively. Måneskin explained on their work on the song, and collaboration with Luhrmann saying "We were talking about it with Baz Luhrmann, who had this really cool, super-smart idea, because it would have been so easy to give us an up-tempo song and go super rock-ish."</p>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+ 					</div>
+			</section>
+			<section class="album">
+					<h3>ALBUM</h3>
+					<div id="container">
+						<div id="player" data-plyr-provider="youtube" data-plyr-embed-id="AXWJxbWfKls"></div>
+					</div>
+					<div class="song_list">
+					</div>
+			</section>
+	</article>
+	
+	<footer id="footerArea">
+	    <a href="#" class="topmove">top</a>
+		<img src="./images/ELVISfooterlogo.png" alt="">
+		<img class="logo2" src="./images/ELVISfooterlogo640.png" alt="">
+		<p>©2022 Warner Bros. Ent. All Rights Reserved.</p>
+	</footer>
+</div>
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/imgBG.js"></script>
+<script src="./js/nav.js"></script>
+<script src="./js/scrollsub.js"></script>
+<script src="https://cdn.plyr.io/3.7.2/plyr.js"></script>
+<script src="./js/youtube.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/page.js"></script>
+<script src="./js/album.js"></script>
+<script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="./js/custom.js"></script>
+</body>
+</html>

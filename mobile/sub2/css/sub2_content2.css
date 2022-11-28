@@ -1,0 +1,51 @@
+#content p{background-color: #f0f0f0;
+    border-radius: 8px;
+    margin: 0 4% 45px 3%;
+    padding: 10px 15px;
+    line-height: 1.5rem;}
+
+.birdmove ul{overflow: hidden;}
+.birdmove li{float: left;
+    width: 44.3%;
+    margin: 0 8px 11px;
+    overflow: hidden;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.3rem;
+    background: #edad14;
+    line-height: 40px;
+    color: #f0f0f0;}
+.birdmove img{display: block;
+    width: 100%;}
+
+.birdhouse ul{overflow: hidden;}
+.birdhouse li{float: left;
+    text-align: center;
+    width: 49.3%;
+    overflow: hidden;
+    border-radius: 300px;
+    text-align: center;
+    font-size: 1.5rem;
+    position: relative;}
+.birdhouse li span{font-size: 1.3rem;
+    position: absolute;
+    left: 8%;
+    text-align: center;
+    top: 35%;
+    display: block;
+    right: 7%;
+    background: #fff;
+    border-radius: 8px;
+    color: #edad14;
+    font-weight: 600;
+    padding: 5%;
+    border: 2px solid #edad14;
+}
+.birdhouse li img{display: block;  filter: contrast(.6);
+    width: 100%;}
+
+.birdsaver img{margin-bottom: 25px;
+    border-radius: 8px;
+    position: relative;
+    left: 3%;
+    width: 93%;}

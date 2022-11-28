@@ -1,0 +1,15 @@
+{
+    "letter": [
+        {"title":"구독신청", "icon": "'fa-solid fa-file-signature'", "hover": "구독하기"},
+        {"title":"주소변경", "icon": "'fa-solid fa-at'", "hover": "변경하기"},
+        {"title":"구독취소", "icon": "'fa-solid fa-xmark'", "hover": "취소하기"}
+
+    ],
+
+    "issue": [
+        {"src":"./images/content2/issue7.jpg", "alt": "#"},
+        {"src":"./images/content2/issue8.jpg", "alt": "#"},
+        {"src":"./images/content2/issue9.jpg", "alt": "#"}
+
+    ]
+}

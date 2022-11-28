@@ -1,0 +1,50 @@
+#content .slogan{text-align: center;color: #999; margin: 0 4%;}
+
+.support {overflow: hidden; position: relative;}
+.support h3{font-size: 2.5em; font-weight: 500;}
+
+.support div{overflow: hidden; }
+.support div .caption{background-color: #f0f0f0;
+    border-radius: 8px;
+    margin: 0 4% 0 3%;
+    padding: 10px 15px;
+    line-height: 1.5rem;}
+.caption p:nth-child(1){padding-bottom: 15px;}
+.caption p{text-align: justify;}
+.support img{margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 12px;
+    width: 93%;
+    left: 3.5%;
+    position: relative;}
+
+.circle_box{text-align: center; margin-top: 45px;}
+.circle{border: 2px solid #edad14;
+    border-radius: 200px;
+    width: 150px;
+    height: 125px;
+    padding-top: 25px;
+    display: inline-block;}
+.supportHow i{font-size: 5.5rem;}
+.supportHow >p{border-radius: 8px;
+    margin: 0 4% 0 3%;
+    padding: 21px 15px;
+    line-height: 1.7rem;
+    font-size: 1.25rem;
+    text-align: justify;}
+
+.supportHow li{font-size: 1.25em; text-align: justify; border-bottom: 2px solid #f1f1f1; 
+    padding: 15px; line-height: 1.5rem;}
+.supportHow span{color: #edad14; display: block; font-weight: 600; padding: 15px; text-align: center;}
+
+.supportGoods{ overflow: hidden; text-align: center; margin-bottom: 45px;}
+.supportGoods h3::after{content: '';display: block; height: 7px;
+    background: #edad14; margin-top: 30px;}
+
+.supportGoods >p{margin-top: 40px; margin: 0 4%; color: #999;}
+.supportGoods dl, dd{font-size: 1.2rem; margin: 30px 4%;}
+.supportGoods dt p{text-align: justify; line-height: 1.5rem;}
+.supportGoods dd{background: #f0f0f0;
+    border-radius: 14px; padding: 15px;}
+.supportGoods strong{font-size: 1.3rem; line-height: 3rem;}
+.supportGoods span{margin-right: 40px; color: #edad14;}

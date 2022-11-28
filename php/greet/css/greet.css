@@ -1,0 +1,406 @@
+@charset "utf-8";
+#content #col2 {
+	width:807px;
+	min-height:558px;
+	float:left;
+	margin-left:15px;
+/*	border:solid 1px #cccccc; */
+}
+
+#content #col2 #title{
+	margin-top:30px;
+	height:30px;
+	border-bottom:solid 1px #cccccc;
+}
+
+/* list css */
+
+#list_search {
+	font-size: 1.3em;
+	height:30px;
+	padding-top:10px;
+	margin-bottom: 75px;
+}
+
+#list_search #list_search1 {
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+
+#list_search #list_search3 {
+	float:left;
+	margin-left:5px;
+	margin-top:1px;
+}
+
+#list_search #list_search3 select {
+	font-size: 1.3em;
+	width: 130px;
+    height: 43px;
+	border:solid 1px #cccccc;
+}
+
+#list_search #list_search4 {
+	float:left;
+	margin-left:3px;
+}
+
+#list_search #list_search4 input {
+	font-size: 1.3em;
+	width: 315%;
+    height: 40px;
+	border:solid 1px #cccccc;
+}
+
+#list_search #list_search5 {
+	float:right;
+	margin-left:5px;
+	margin-top:1px;
+}
+
+#list_search #list_search5 input{
+	width: 10%;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.list_count{font-size: 1.8em;
+    margin-bottom: 15px;
+    overflow: hidden;}
+
+.list_count select{font-size: 1em;
+    float: right;}
+
+#list_top_title {
+	height:45px;
+	padding:7px;  
+	border-top:solid 2px #aaaaaa;
+	background-color:#eeeeee;
+	margin-bottom:3px;
+	font-size: 1.8em;
+    font-weight: 600;
+}
+
+#list_top_title li {
+	display:inline;
+}
+
+#list_top_title #list_title1 {
+	margin-left:5px;
+}
+
+#list_top_title #list_title2 {
+	margin-left:360px;
+}
+
+#list_top_title #list_title3 {
+	margin-left: 355px;
+}
+
+#list_top_title #list_title4 {
+	margin-left:77px;
+}
+
+#list_top_title #list_title5 {
+	margin-left:26px;
+}
+
+#list_content {font-size: 1.8em;
+	height:600px;
+}
+
+#list_item {
+	height:36px;
+	margin-top:2px;
+	padding:6px;  
+	border-bottom:solid 1px #eeeeee;
+}
+
+#list_item #list_item1{
+	float:left;
+	width:68px;
+	text-align:center;
+}
+
+#list_item #list_item2{
+	float:left;
+	width:750px;
+	text-align: center;
+}
+
+#list_item #list_item3{
+	float: left;
+    width: 136px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#list_item #list_item4{
+	float:left;
+	width:169px;
+	text-align:center;
+}
+
+#list_item #list_item5{
+	float:left;
+	width:40px;
+	text-align:center;
+}
+
+#list_item #list_item3 span, #list_item #list_item4 span, #list_item #list_item5 span{
+	display: none;
+}
+
+#page_button {
+	margin-top:20px;
+}
+
+#page_button #button a{border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: .59em;}
+
+#page_num {
+	float:left;
+	width:80%;
+	margin-top:10px;
+	text-align:center;
+}
+
+#button {
+	float:left;
+	width:18%;
+	text-align:right;
+}
+
+#list_title6{display: none;}
+
+.lst_mode {overflow: hidden;}
+.lst_mode li:nth-child(1){color: #999; float: left;
+    margin-right: 20px;
+    font-size: 2em;
+    margin-left: 10px;}
+.lst_mode li:nth-child(1).active a{color: #edad14;}
+
+.lst_mode li:nth-child(2){color: #999; float: left;
+    margin-right: 20px;
+    font-size: 2em;
+    margin-left: 10px;}
+.lst_mode li:nth-child(2).active a{color: #edad14;}
+
+/* box mode */
+
+#list_top_title ul.box{display: none;}
+
+#list_title6.box{display: block; text-align: center;}
+
+#list_content.box{font-size: 1.8em;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;}
+
+#list_item.box{height: 293px;
+    margin-top: 2px;
+    padding: 6px;
+    width: 588px;
+}
+
+#list_item #list_item1.box{float: left;
+    width: 68px;
+    text-align: center;}
+
+#list_item #list_item2.box{float: left;
+    width: 468px;
+    text-align: center;
+}
+
+#list_item #list_item3.box{
+	float: none;
+	width: 136px;
+    text-align: center;
+    position: relative;
+    top: 23px;
+    font-size: .7em;
+    left: 21px;
+}
+
+#list_item #list_item4.box{
+	float: none;
+	width: 232px;
+    text-align: center;
+    position: relative;
+    font-size: .7em;
+    left: 139px;
+    top: 0px;
+}
+
+#list_item #list_item5.box{
+	width: 60px;
+    text-align: center;
+    position: relative;
+    font-size: .7em;
+    top: -23px;
+    left: 359px;
+	float: none;
+}
+
+#list_item #list_item3 span.box, #list_item #list_item4 span.box, #list_item #list_item5 span.box{
+	display: inline;
+}
+
+#page_button.box{
+	margin-top: 20px;
+	display: contents;
+}
+
+/* write_form css */
+
+#write_form_title {
+	margin-top:20px;
+	width:99%;
+	height:36px;
+	text-align:center;
+	padding-top:7px;  
+	border-top:solid 2px #aaaaaa;
+	background-color:#eeeeee;
+	font-size: 1.8em;
+}
+
+#write_form {
+	font-size: 1.8em;
+}
+
+#write_form #write_row1 {
+    width:99%; 
+	height: 50px;
+	margin:2px 0 2px 0; 
+}
+
+#write_form #write_row2 {
+    width:99%; 
+	height: 50px;
+	margin:2px 0 2px 0; 
+}
+
+#write_form #write_row3 {
+    width:99%;
+	margin:2px 0 2px 0;
+	overflow: hidden;
+}
+
+.write_line {
+    width:99%; 
+	border-bottom:solid 1px #cccccc;
+}
+
+#write_form .col1 {
+	float:left;
+	width:120px;
+	text-align:center;
+	padding:5px;
+}
+
+#write_form #write_row3 .col1 {
+	height:126px;
+	padding-top:120px;
+}
+
+#write_form .col2 {
+	float:left;
+	margin-left: 8px;
+	margin-top:2px;
+}
+
+#write_form #write_row1 .col2 {
+	float:left;
+	margin-top:6px;
+}
+
+#write_form #write_row1 .col3 {
+	float:left;
+	margin-top:4px;
+	margin-left:100px;
+}
+
+#write_row2 .col2 input {
+	width: 1042px;
+    height: 32px;
+	border:solid 1px #cccccc;
+	font-size: 1em;
+}
+
+#write_row3 .col2 textarea {
+    margin-top:1px;
+	border:solid 1px #cccccc;
+	resize: vertical;
+	width: 1042px;
+	font-size: 1em;
+}
+
+#write_button {
+	margin-top:15px;
+	width:97%;
+	text-align:right;
+    margin-bottom: 15px;
+}
+
+#write_button a, #write_button button{border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+	cursor: pointer;
+    background: none;
+    font-size: 1em;}
+
+#write_button button{font-size: .9em}
+
+/* view.php css */
+
+#view_comment {
+	margin:10px 0 0 10px;
+}
+
+#view_title {
+	height:40px;
+	padding:10px 8px 8px 8px;  
+	border-top:solid 2px #aaaaaa;
+	background-color:#eeeeee;
+	margin-bottom:5px;
+	font-size: 1.8em;
+    position: relative;
+}
+
+#view_title1 {
+	text-align: center;
+}
+
+#view_title2 {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+}
+
+#view_content {
+	width:96%;
+	min-height:200px;
+	padding:15px;
+	overflow:hidden;
+	line-height:150%;
+	border-bottom:solid 1px #cccccc;
+	margin-top: 60px;
+    font-size: 1.8em;
+}
+
+#view_button {
+	width:98%;
+	text-align:right;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+#view_button a{border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

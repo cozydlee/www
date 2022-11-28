@@ -1,0 +1,43 @@
+#content .slogan{font-size: 1.3em; text-align: center; color: #666; margin: 70px 0 150px 0;}
+
+.support {overflow: hidden; margin-bottom: 100px; position: relative;}
+.support h3{font-size: 2.5em; font-weight: 500;}
+.support h3::after{content: '';display: block; height: 7px; width: 400px; 
+    background: #edad14; margin-top: 30px;}
+.support div{overflow: hidden; margin-bottom: 100px;}
+.support div p{float: left; font-size: 1.25em; width: 490px; text-align: justify; 
+    line-height: 1.7em; margin-top: 30px; margin-bottom: 100px;}
+.support img{transform: scale(.7);
+    margin: -146px 24px;
+    position: absolute;}
+
+.support .circle{border: 2px solid #edad14; border-radius: 200px;  text-align: center;
+		width: 150px; height: 125px; margin: 0 520px; padding-top: 25px}
+.support i{font-size: 5.5em;}
+.support >p{text-align: center; font-size: 1.25em; margin-top: 40px;}
+.support ul{border: 2px solid #f1f1f1;margin-top: 40px; overflow: hidden; padding: 30px 0;}
+.support ul li{float: left; padding: 0 90px 0 300px; font-size: 1.25em;}
+.support ul li:nth-child(1){color: #edad14; font-weight: 600;}
+
+.supportHow {margin-bottom: 150px;}
+.supportHow h3{font-size: 2.5em; text-align: center; margin-top: 80px; margin-bottom: 100px;}
+.supportHow li{font-size: 1.25em; text-align: center; border-bottom: 2px solid #f1f1f1; 
+	margin-bottom: 30px; padding-bottom: 20px; width:1200px; }
+.supportHow span{color: #edad14; margin-right: 40px; font-weight: 600;}
+
+.supportGoods{background-color: #f1f1f1; overflow: hidden; margin-bottom: 200px;}
+.supportGoods h3{font-size: 2.5em; font-weight: 500;}
+.supportGoods h3::after{content: '';display: block; height: 7px; width: 400px; 
+    background: #edad14; margin-top: 30px;}
+
+.text_box {width: 550px; float: left; padding: 50px 50px 0; }
+.text_box >p{font-size: 1.25em; margin-top: 40px;}
+.text_box dl, dd{font-size: 1.2em; margin: 30px 0;}
+.text_box strong{font-size: 1.3em; line-height: 3em;}
+.text_box span{margin-right: 40px; color: #edad14;}
+
+.img_box{float: right;}
+.img_box li{display: none;}
+.arrowS {position: relative;}
+.arrowS a{font-size: 100px; position: absolute; color: #fff; top: 300px;}
+.arrowS a:nth-child(2){right: 0;}

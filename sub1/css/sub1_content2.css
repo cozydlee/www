@@ -1,0 +1,15 @@
+/* 인사말 본문영역 */
+.contentArea{position: relative;}
+#content div{overflow: hidden;}
+#content img{transform: scale(.8); float: left; margin-left: 60px;}
+#content .box{display: inline-block;}
+#content .box::before{width: 460px; height: 634px; content: '';
+    position: absolute; left: 100px; top: 100px; background-color: #edad14;}
+#content ul{float: right; width: 500px; margin: 0 auto; margin-bottom: 100px;}
+#content dt{font-size: 1.7em; font-weight: bold; line-height: 2em; text-align: center; margin-top: 70px;
+    padding-right: 25px;}
+#content em{font-style: normal; color: #edad14;}
+#content dd{padding: 21px 25px 25px 0; text-align: justify; font-size: 1.125em; line-height: 1.5em;}
+#content dd span{margin-top: 60px;}
+#content ul span{display: block; padding-bottom: 21px;}
+#content li >span{text-align: right; padding-right: 25px; font-weight: bold; font-size: 1.25em;}

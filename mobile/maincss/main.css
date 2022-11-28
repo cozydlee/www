@@ -1,0 +1,81 @@
+/* CSS Document */
+.main{overflow: hidden; position: relative; margin-top: 46px;}
+.main img{width: 100%;}
+
+.main .caption{position: absolute; top: 37%; line-height: 2rem;
+    left: 27px; color: #f0f0f0;}
+.main .caption p:nth-child(1){font-size: 1.5rem; font-weight: 600;}
+.main .caption p:nth-child(2){width: 85px;}
+
+.gallery_swiper ul{position:relative; left:0; top:0; width:1000%; overflow: hidden }
+.gallery_swiper ul li{float: left; width:100%}
+
+.gallery_swiper .pageNum{width:50px; position: absolute; left: 50%; margin-left:-25px; bottom: 30px; overflow: hidden }
+.gallery_swiper .pageNum span{display:block; width:10px; height:10px; background: #fff;
+    border-radius: 5px; float: left; margin-right:5px; opacity: .7}
+
+#content h3{text-align: center; font-size: 1.5rem; margin-bottom: 20px; margin-top: 45px;}
+.current{background-color: #f0f0f0;}
+
+.business {overflow: hidden; position: relative;}
+.business ul{margin: 0 11px; text-align: center;}
+.business li{background-color: #f0f0f0; width: 30%; height: 200px; margin: 0 1.5%;
+        float: left; border-radius: 8px;}
+
+.business i{font-size: 3rem; padding: 16px 0px; color: #edad14;}
+.business dl{margin-bottom: 10px;}
+.business dt{font-size: 1rem; padding-bottom: 16px;}
+.business dd{font-size: .9rem; line-height: 1.25rem; padding: 0 3px; }
+
+.business a{border-radius: 8px; font-weight: 600;
+    width:20px; background-color: #edad14; padding: 3px 15px;
+    color: #f0f0f0; box-shadow: 3px 4px 3px 0px rgba(0, 0, 0, .3);}
+
+.campaign div >a{float: right; position: relative; top: -42px; right: 12px; font-size: 1.5rem;
+    color: #edad14;}
+
+.eventPic li img{position: relative; left: 3%; margin-bottom: 10px; border-radius: 8px;width: 93%;}
+
+.event_title{margin-bottom: 17px; line-height: 30px;}
+.event_title li{border-radius: 8px;background-color: #edad14;padding: 4px 5px;
+    display: inline;position: relative;left: 3%;
+    margin-right: 10px; text-align: center;}
+.event_title li a{color: #f0f0f0;}
+
+.event_cap li{background-color: #f0f0f0; border-radius: 8px; margin: 0 4% 0 3%;
+    padding: 10px 15px; line-height: 1.25rem; font-size: .9rem;}
+
+video{margin: 0 3%; border-radius: 8px 8px 0 0; position: relative; z-index: 2; width: 93%;}
+.videos p{ text-align: center; border: 2px solid #999; border-top: none;
+    width: 92.5%; position: relative; left: 3%; border-radius: 0 0 8px 8px;
+    bottom: 4px; z-index: 1; padding: 9px 0px;}
+
+.goods {overflow: hidden;}
+.goods .list_box{overflow: hidden;}
+.goods .list_div{overflow: hidden;width: 2000px; position: relative;}
+.goods ul{overflow: hidden; position: relative; float: left;}
+.goods li{float: left; margin: 0 4px;}
+.goods img{border-radius: 8px 8px 0 0;}
+.goods p{text-align: center;border: 2px solid #999;border-top: none;
+    position: relative;border-radius: 0 0 8px 8px; padding: 4px 0px; font-size: .9rem;}
+.goods div{text-align: center; margin-bottom: 20px;}
+.goods a{background-color: #f0f0f0; border-radius: 8px; box-shadow: 3px 4px 3px 0px rgba(0, 0, 0, .3);
+        padding: 6px 10px;}
+.goods span{padding-left: 20px;}
+
+.rescue {background-color: #e1e9ec; margin: 45px 15px; border-radius: 8px; overflow: hidden; position: relative;}
+.rescue div{height: 100px;}
+.rescue div::after{content: '';background: url(../images/banner_320.jpg) no-repeat; width: 100%; height: 50px;
+    position: absolute;top: 50px;right: 0; background-position: center;}
+.rescue p {width: 100px; text-align: center; line-height: 2rem; padding: 26px 20px 0; position: relative;
+    z-index: 5; font-weight: 600;}
+.rescue p:nth-child(1){float: left;}
+.rescue p:nth-child(2){float: right;}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .rescue div::after {background: url("../images/banner_640.jpg") no-repeat;
+      background-size:160px 50px;
+      background-position: center;}
+   }
+    
+

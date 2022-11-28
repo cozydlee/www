@@ -1,0 +1,84 @@
+#content h3{text-align: center;}
+#content p{background-color: #f0f0f0;
+    border-radius: 8px;
+    margin: 0 4% 45px 3%;
+    padding: 10px 15px;
+    line-height: 1.5rem;
+    text-align: justify;}
+
+#content .rescue {overflow: hidden;}
+#content .rescue ul {margin-left: 2%;}
+#content .rescue .pics li{float: left;
+    width: 44.3%;
+    margin: 0 8px 11px;
+    overflow: hidden;
+    border-radius: 50px;}
+#content .rescue li img{transition: all .5s ease-out; width: 100%;}
+
+.modal_box2{width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .3);
+    backdrop-filter: blur(2px);
+    top: 46px;
+    z-index: 10;
+    display: none;}
+#accuseMemo{background: #fff;
+    z-index: 60;
+    line-height: 1.4rem;
+    width: 78%;
+    position: fixed;
+    top: 13%;
+    padding: 18% 5%;
+    left: 7%;
+    display: none;
+    font-size: 1.1rem;
+    box-shadow: 5px 10px 10px 1px rgb(0,0,0,.3);
+    border-radius: 10px;}
+#accuseMemo li{text-align: justify; padding-bottom: 10px;}
+
+.popup-head{font-weight: 700;
+    width: 100%;
+    height: 50px;
+    background-color: #edad14;
+    position: absolute;
+    top: -2px;
+    border-radius: 10px 10px 0 0;
+    left: 0px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 45px;
+    color: #f0f0f0;}
+
+.popup-foot{font-weight: 700;
+    width: 100%;
+    height: 60px;
+    background-color: #edad14;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    left: 0;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 0;}
+
+#accuseMemo a{text-align: center;
+    display: block;
+    padding-top: 30px;
+    color: #fff;}
+
+.accuse{text-align: center;
+    padding-bottom: 45%; font-size: 1.5rem;
+    position: relative; background-color: #ff8a00;}
+.accuse a{position: absolute; padding: 28% 12%; display: block; color: #fff;}
+.accuse span{display: block; margin-top: 10px; color: blue; }
+@media (min-width: 480px) {.accuse { font-size: 2.5rem;}
+}
+@media (min-width: 670px) {.accuse { font-size: 3.5rem;}
+}
+
+#content .rescue_center{overflow: hidden; margin-bottom: 45px;}
+#content .rescue_center table{margin: 3%; font-size: 1.2rem; border-collapse:collapse}
+#content .rescue_center thead th{background-color: #edad14; color: #fff; padding: 10px;}
+#content .rescue_center th{width: 20%; padding: 30px 0; border: 1px solid #edad14;}
+#content .rescue_center td{border: 1px solid #edad14; padding: 10px; line-height: 1.5rem;}

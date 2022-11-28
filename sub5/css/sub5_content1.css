@@ -1,0 +1,60 @@
+section{overflow: hidden; margin: 0 auto;}
+
+.titleArea{margin-bottom: 60px;}
+
+.contentArea {position: relative;}
+.contentArea h3{font-size: 2.5em; text-align: center;}
+.contentArea p,.contentArea li, .contentArea a{text-align: justify; margin: 40px 130px; 
+	font-size: 1.3em; line-height: 1.5em;}
+
+.contentArea a{float: left; font-size: 1.5em;background: #edad14; 
+		border-radius: 50px; color: #fff; padding: 10px 10px;}
+
+.member h3{margin-bottom: 35px;}
+.member .contlist{padding-top: 20px;}
+
+.duty {margin-top: 20px}
+.duty .contlist{display: none; margin-bottom: 100px;}
+.duty p {margin-bottom: 100px;}
+.duty ul{overflow: hidden; height: 270px;}
+.duty li{float: left; text-align: center; font-size: 1.5em; padding: 80px 30px 0; line-height: 2em;
+	width: 200px; margin: auto 70px; height: 170px; border-radius: 50px;
+	background-color: #f1f1f1; box-shadow: 2px 8px 8px 0px rgb(0 0 0 / 30%);}
+
+.disable .contlist{display: none; margin-bottom: 100px;}
+
+.club .contlist{display: none;}
+.club ul{overflow: hidden;}
+.club ul::after{content: '';display: block; height: 7px; width: 1000px; 
+    background: #edad14; margin-top: 140px; margin-left: 80px;}
+.club li{float: left; text-align: center; font-size: 2em; padding: 87px 30px 0;
+    line-height: 2em; width: 185px; margin: auto 70px; height: 160px;
+    border-radius: 200px; background-color: #fff; border: 5px solid #edad14;
+}
+
+#form1{margin-bottom: 150px;}
+#form1 table{text-align: center; line-height:135%; border-collapse:collapse; 
+	color:#333; margin-bottom: 50px;}
+#form1 p, caption{text-align:center; margin-bottom:10px; width: 1200px; font-size: 2.5em;}
+#form1 p{margin: 100px auto 0;}
+#form1 caption {font-size: 1.3em; padding: 40px 0;}
+#form1 tbody, #form1 thead{font-size: 1.2em;}
+#form1 th{padding: 15px 10px;}
+#form1 input{padding: 10px 10px; margin: 0 5px; font-size: .8em;}
+#form1 form >input,#form1 button{padding: 10px 30px; margin: 0 10px; font-size: 1em; border: 1px solid #edad14;
+		border-radius: 50px; background-color: #edad14; color: #fff;}
+
+.contentArea a.tab {display: block;
+	position: absolute;
+	text-align: center;
+	font-size: .7em;
+	font-weight: bold;
+	border: 2px solid #dead14;
+	border-radius: 10px;
+	top: -58px;} 
+.contentArea a.tab1{left: 0;}
+.contentArea a.tab2{left: 200px;}
+.contentArea a.tab3{left: 468px;}
+.contentArea a.tab4{left: 770px;}
+
+.current{background: #fff;}

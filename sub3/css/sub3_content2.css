@@ -1,0 +1,47 @@
+.birdhouse h3{font-size: 2.5em; text-align: center; margin-top: 80px;}
+.birdhouse >p{text-align: justify; margin: 40px 170px; font-size: 1.3em; line-height: 1.5em;}
+
+.join {overflow: hidden; margin: 100px 0;}
+.join div{float: left; padding-top: 220px;}
+.join h3{font-size: 2.5em; font-weight: 500;}
+.join h3::after{content: '';display: block; height: 7px; width: 400px; 
+    background: #edad14; margin-top: 30px;}
+.join div p{font-size: 1.25em; width: 490px; text-align: justify; 
+    line-height: 1.7em; margin-top: 30px;}
+.join ul{overflow: hidden; }
+.join li{float: right; margin: 30px 10px 0 17px}
+.join li p{font-size: 1.5em; text-align: center;background: #edad14; 
+    border-radius: 50px; color: #fff; margin-top: 30px; padding: 10px 0;}
+.join li img{transform: rotate(-4deg); border: #ccc solid 10px;}
+
+.eventGuide h3{font-size: 2.5em; text-align: center; margin-top: 80px;}
+.eventGuide >p{text-align: justify; margin: 40px 170px; font-size: 1.3em; line-height: 1.5em;}
+.eventGuide ul{overflow: hidden;}
+.eventGuide ul::after{content: '';display: block; height: 7px; width: 1000px; 
+    background: #edad14; margin-top: 140px; margin-left: 40px;}
+.eventGuide li{float:left; text-align: center;}
+.eventGuide li p{margin-top: 10px;}
+.eventGuide li img{border-radius: 200px; transform: scale(.8);}
+
+.eventEtc {overflow: hidden; margin-top: 100px; margin-bottom: 200px;}
+.eventEtc h3{font-size: 2.5em; text-align: center; margin-bottom: 120px;}
+.eventEtc ul li{float: left; margin-left: 20px; font-size: 1.125em;}
+.eventEtc ul li ul{margin-top: -40px; height: 320px; margin-top: -39px; height: 300px;
+    border: 2px solid #f1f1f1;}
+.eventEtc ul li img{margin-left: 60px; border: 2px solid #f1f1f1;height: 300px;margin-top: -39px;}
+.eventEtc ul li div{margin-top: 130px;}
+.eventEtc ul li div:hover a{opacity: 1;}
+.eventEtc ul li div p::after{content:'';background: url(../images/content2/birdhouse.png) no-repeat; width: 300px; height: 300px;
+    background-size: 80%;display: block; margin-top: 20px;
+    margin-left:-30px; position: absolute; z-index: -1;}
+.eventEtc ul li div:hover p::after{filter: brightness(.5); transition: all .9s ease-out;
+        transition-delay: .1s; opacity: .8;}
+.eventEtc ul li div p{text-align: center; margin-left: 115px; font-size: 1.3em;
+margin-top: -170px; font-weight: 600; color: #edad14; margin-bottom: 150px;}
+.eventEtc li ul li{float: none; padding: 20px;}
+.eventEtc a {font-size: 16px; text-align: center; display: block;
+    border-radius: 20px; font-weight: 700; margin-left: 135px; margin-top: 10px;
+    width:150px; background-color: #edad14;padding: 15px 0;
+    color: #fff; box-shadow: 2px 2px 10px 0px rgba(0,0,0,.3); transition: all .5s;
+    opacity: 0;}
+.eventEtc a:hover{background: #fff; color:#edad14;}

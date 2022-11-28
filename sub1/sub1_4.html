@@ -1,0 +1,90 @@
+<?
+           session_start();
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>협회소개-협회업무</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content4.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/43cec56aae.js" crossorigin="anonymous"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=6e5362a470786343d3f213a91002ac1c"></script>
+    <script src="./js/map.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <div class="main">
+            <h3>협회소개</h3>
+        </div>
+
+        <div class="subNav">
+            <ul>
+                <li><a href="../sub1/sub1_1.html">협회업무</a></li>
+                <li><a href="../sub1/sub1_2.html">인사말</a></li>
+                <li><a href="../sub1/sub1_3.html">연 혁</a></li>
+                <li><a class="current" href="#">오시는길</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="titleArea">
+                <div class="lineMap">
+                    <i class="fa-solid fa-house"></i> &gt; <span>한국조류보호협회</span> &gt;
+                    <span>협회소개</span> &gt; <strong >오시는길</strong>
+                </div>
+                <h2>오시는길</h2>
+            </div>
+            <div class="contentArea">
+                <section class="maps">
+                    <h3>위치 및 교통편</h3>
+                    <div id="home"></div>
+                    <ul class="mapAdress">
+                        <li>
+                            <dl>
+                            <dt>한국조류보호협회</dt>
+                            <dd>&#128234; (우) 04324, 서울특별시 용산구 후암로 91</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <p>&#128241; 전화번호 02-797-4765</p>
+                                </li>
+                                <li>
+                                    <p>&#128224; 팩스 02-749-4748</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>찾아오시는 방법</p> 
+                        </li>
+                        <li class="train">
+                            <dl>
+                            <dt> &#128650; 지하철 </dt>
+                            <dd> <span>1</span> <em>4</em> 호선 서울역 하차 후 10번 출구에서 7분 거리</dd>
+                            </dl>
+                        </li>
+                        <li class="bus"> 
+                            <dl>
+                            <dt> &#128652; 버스 </dt>
+                            <dd>
+                                <em>협회 맞은편</em><span>간선</span>202, 400
+                                <em>협회 근처</em><span>간선</span>400. 605
+                            </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.school {overflow: hidden;margin-top: 100px; }
+.school h3{font-size: 2.5em; font-weight: 500; float: left; text-align: center;}
+.school h3::after{content: '';display: block; height: 7px; width: 400px; 
+    background: #edad14; margin-top: 20px;}
+.school .caption_box dl{float:right; width:700px; margin-bottom: 40px;}
+.school .caption_box dt{float: left; font-size: 1.5em;background: #edad14; 
+    border-radius: 50px; color: #fff; padding: 10px 10px;}
+.school .caption_box dd{float: right; width:500px; line-height: 1.3em; text-align: justify; font-size: 1.25em;}
+.school >dl{float: left; margin-top: 100px;}
+.school >dl dt{text-align: center; font-size: 2em;}
+.school >dl dd{float: left;}
+.school img{width: 377px; margin: 50px 10px 150px; border-radius: 40px; 
+    box-shadow: 2px 8px 8px 0px rgba(0,0,0,.3);}
+
+.invite {overflow: hidden;margin-top: 100px; margin-bottom: 100px;}
+.invite h3{font-size: 2.5em; font-weight: 500; float: left; width: 400px; text-align: center;line-height: 1.5em;}
+.invite h3::after{content: '';display: block; height: 7px; width: 400px; 
+    background: #edad14; margin-top: 20px;}
+.invite .caption_box2 dl{float:right; width:700px; margin-bottom: 40px; margin-top: 10px;}
+.invite .caption_box2 dt{float: left; font-size: 1.5em;background: #edad14; 
+    border-radius: 50px; color: #fff; padding: 10px 10px;}
+.invite .caption_box2 dd{float: right; width:500px; line-height: 1.3em; text-align: justify; font-size: 1.25em;}
+.invite >dl{float: left; margin-top: 100px;}
+.invite >dl dt{text-align: center; font-size: 2em;}
+.invite >dl dd{float: left;}
+.invite img{width: 377px; margin: 50px 10px 150px; border-radius: 40px; 
+    box-shadow: 2px 8px 8px 0px rgba(0,0,0,.3);}

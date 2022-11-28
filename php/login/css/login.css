@@ -1,0 +1,63 @@
+body{background: url(../images/member_bg.jpg) no-repeat center 23%; background-size: cover;
+    background-attachment: fixed;}
+.logo{
+    display: block;
+    width: 240px;
+    height: 90px;
+    background: url(../../../common/images/headerLogo.png) no-repeat;
+    text-indent: -999%;
+    margin: 0 0 50px -90px;
+    position: relative;
+    top: 0;
+    left: 47.5%;
+}
+form{width: 250px; margin: 88px auto; backdrop-filter: brightness(0.5);
+     padding: 70px; font-family: 'Nanum Gothic', sans-serif;}
+ul{list-style: none; position: relative;
+    left: -31px;}
+h2{text-align: center;  margin-bottom: 16px; color: #f0f0f0; font-size: 1.4em;}
+input{padding: 5px;
+    border-radius: 2px;
+    font-size: 1.5em;
+    border: 0;
+    background: #f0f0f0;
+    width: 122%;
+    margin-bottom: 16px;
+    font-size: 1em;
+    outline: none;
+    height: 40px;
+}
+
+#id_pw_input {color: #f0f0f0;}
+
+#login_button, #join_button{position: relative;
+    left: -31px;  margin-bottom: 16px;}
+
+#login_button{left: 149px;}
+#login_button button{border: none;
+    border-radius: 7px;
+    margin-right: 5px;
+    padding: 9px;
+    font-size: .9em;
+    cursor: pointer;}
+
+i{margin-bottom: 16px;}
+#login_button span{display: inline;}
+span{display:block;margin-bottom: 16px;}
+
+form a{    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+    width: 310px;
+    line-height: 24px;
+    padding: 8px 0;
+    border: none;
+    background: rgba(237, 172, 20, .9);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px; transition: all .5s}
+
+form a:hover{background: rgb(250, 168, 3)}
+
+

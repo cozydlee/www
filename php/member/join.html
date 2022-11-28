@@ -1,0 +1,68 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입-이용약관</title>
+ 
+    <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" href="../../common/css/common.css">
+    <link rel="stylesheet" href="./css/member_check.css">
+    
+    
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="./js/member_check.js"></script>
+</head>
+<body>
+    <header>
+    <a class="logo" href="../../index.html"><img src="../../common/images/headerLogo.png" alt=""></a> 
+    </header>             
+    <article id="content">           
+                <div class="sub_cont_wrap">
+                   
+                    <form name="fmember" class="join">
+<!--          s.서비스 이용약관             -->
+                        <h3>약관 동의</h3>
+                        <h4>서비스 이용약관</h4>
+                        <div class="policy" id="policy">
+                        
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" id="check01" name="agree"> 
+                            <label for="check01">이용약관에 동의합니다.</label>
+                        </div>
+
+
+                       <h4>개인정보 보호정책</h4>
+                        <div class="policy" id="privacy">
+                            
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" id="check05" name="agree">
+                            <label for="check05">개인정보 보유 및 이용기간에 동의합니다.</label>
+                        </div>
+
+                        <div class="button">
+                            <a class="allcheck" href="#">모두 동의하기</a>
+                            <a href="#" class="check_agree ok">동의 및 회원가입</a>
+                            <button type="button" onclick="join_cancel()" class="cancel">취소</button>
+                        </div>
+                    </form>
+                </div>
+<!--      //sub_cont_wrap          -->
+	</article>
+
+<script type="module">
+    import goo from './js/join.js';
+    goo();
+</script>
+<script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="./js/custom.js"></script>
+</body>
+</html>

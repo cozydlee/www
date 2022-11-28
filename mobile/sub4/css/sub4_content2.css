@@ -1,0 +1,24 @@
+.faq em{font-style: normal; background: #edad14; padding: 4px 3px;
+    font-size: 1rem;
+    border-radius: 50px; color: #fff;}
+.faq a{text-align: justify; display: block;
+    margin-left: 64px;
+    margin-right: 33px;
+    margin-top: -23px;}     
+
+.faq{font-size: 1.2rem;}
+.faq li{border-bottom: 2px solid #f1f1f1; padding: 10px; position: relative;}
+
+.faq p{padding: 10px 0; overflow: hidden;}
+.faq .a{display: none;
+    line-height: 1.5em;
+    text-align: justify;
+    margin-left: 64px;
+    margin-right: 33px;
+    margin-top: -4px;}
+.faq p span{
+    position: absolute;
+    right: 11px;}
+
+.faq .hide .q a.trigger{background:none;
+    }  

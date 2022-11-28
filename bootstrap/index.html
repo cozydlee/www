@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spaceX</title>
+
+    <link rel="shortcut icon"  type="image/x-icon"  href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+
+<script>
+	// <![CDATA[
+		try {
+			window.addEventListener('load', function(){
+	    	    setTimeout(scrollTo, 0, 0, 1); 
+	    	}, false);
+		} catch(e) {}
+	// ]]>
+</script>
+</head>
+<body data-spy="scroll" data-target="#navbar-example">
+    <div id="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#navbar">글로벌 네비게이션 바로가기</a>
+   </div>
+
+    <div class="container-fluid">
+        <header id="headerArea">
+            <h1 class="logo hidden">SPACEX</h1>
+            <nav id="navbar">
+            <h2 class="hidden">글로벌네비게이션</h2>
+            </nav>
+            <div class="container">
+                <div class="navbar navbar-default navbar-fixed-top" id="navbar-example" role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-scrollspy">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">spacex</a>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy navbar-right navbar-1-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li class=""><a href="#MISSON" onclick="$('#MISSON')">MISSON</a></li>
+                                    <li class=""><a href="#SPACECRAFT" onclick="$('#SPACECRAFT')">SPACECRAFT</a></li>
+                                    <li class=""><a href="#LANDING" onclick="$('#LANDING')">LANDING</a></li>
+                                    <li class=""><a href="#STARLINK" onclick="$('#STARLINK')">STARLINK</a></li>
+                                    <li class="doge hidden"><a href="javascript:">DOGE</a></li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div>
+                    </div>
+            </div>
+        </header>
+        <div class="main_visual">
+            <div id="carousel-example-generic" class="carousel slide">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
+                </ol>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img src="./image/background1.jpg" alt="First slide">
+                    </div>
+                    <div class="item">
+                        <img src="./image/background2.jpg" alt="Second slide">               
+                    </div>
+                    <div class="item active">
+                        <img src="./image/background3.jpg" alt="Third slide">                 
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="control glyphicon glyphicon-chevron-left" alt="left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="control glyphicon glyphicon-chevron-right" alt="right"></span>
+                </a>
+            </div>
+        </div>
+        <article id="content">
+            <h2 class="hidden">본문 콘텐츠영역</h2>
+            <div class="MISSON" id="MISSON">
+                <h3 class="text-center">MISSON</h3>
+                <div class="container">
+                    <p>“You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. 
+                        It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than 
+                        going out there and being among the stars.”</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-offset-1 col-lg-5">
+                        <dl>
+                            <dt>FALCON 1 MAKES HISTORY</dt>
+                            <dd>SpaceX has gained worldwide attention for a series of historic milestones. It is the only private company capable of returning a spacecraft from low-Earth orbit, and in 2012 our Dragon spacecraft became the first commercial spacecraft to deliver cargo to and from the International Space Station. And in 2020, SpaceX became the first private company to take humans there as well. Click through the timeline above to see some of our milestone accomplishments.</dd>
+                        </dl>
+                    </div>
+                    <img class="col-lg-offset-1 col-lg-4 col-lg-offset-1" src="./image/the-suit-new.png" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-lg-offset-1 col-lg-4 col-lg-offset-1 a1"></div>
+                    <!-- <img class="col-lg-offset-1 col-lg-4 col-lg-offset-1" src="./image/destination-dragon.svg" alt=""> -->
+                    <div class="col-lg-4 col-lg-push-1 col-lg-pull-1">
+                        <dl>
+                            <dt>FIRST LAND LANDING</dt>
+                            <dd>On December 21, 2015, the Falcon 9 rocket delivered 11 communications satellites to orbit, and the first stage returned and landed at Landing Zone 1 — the first-ever orbital class rocket landing.</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-offset-1 col-lg-5">
+                        <dl>
+                            <dt>SPACEX RETURNS</dt>
+                            <dd>Launched atop Falcon 9 on May 30, 2020, Dragon's second demonstration mission to and from the International Space Station, with NASA astronauts onboard the spacecraft, restored human spaceflight to the United States. Later that year, NASA certified SpaceX’s Falcon 9 and Crew Dragon human spaceflight system for crew missions to and from the space station – becoming the first commercial system in history to achieve such designation.</dd>
+                        </dl>
+                    </div>
+                    <div class="col-lg-offset-1 col-lg-4 col-lg-offset-1 a2"></div>
+                    <!-- <img class="col-lg-offset-1 col-lg-4 col-lg-offset-1" src="./image/destination-mars.svg" alt=""> -->
+                </div>
+            </div>
+            <div class="SPACECRAFT" id="SPACECRAFT">
+                <h3 class="text-center">SPACECRAFT</h3>
+                    <div class="row">
+                        <ul class="lists">
+                            <li>
+                                <ul class="col-lg-3 col-md-6 col-sm-6 thumbnail">
+                                    <li>FALCON 9</li>
+                                    <li><img src="./image/f9.png" alt=""></li>
+                                    <li >
+                                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">
+                                            overview
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="col-lg-3 col-md-6 col-sm-6 thumbnail">
+                                    <li>FALCON HEAVY</li>
+                                    <li><img src="./image/fh.png" alt=""></li>
+                                    <li >
+                                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
+                                            overview
+                                        </button>
+                                    </li>
+                                </ul>
+                                </li>
+                            <li>
+                                <ul class="col-lg-3 col-md-6 col-sm-6 thumbnail">
+                                    <li>DRAGON</li>
+                                    <li><img src="./image/dragon.png" alt=""></li>
+                                    <li >
+                                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal3">
+                                            overview
+                                        </button>
+                                    </li>
+                                </ul>
+                                </li>
+                            <li>
+                                <ul class="col-lg-3 col-md-6 col-sm-6 thumbnail">
+                                    <li>STARSHIP</li>
+                                    <li><img src="./image/starship.png" alt=""></li>
+                                    <li>
+                                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal4">
+                                            overview
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog modal-dialog-scrollable" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+                                <p class="modal-title" id="myModalLabel">OVERVIEW</p>
+                            </div>
+                            <div class="modal-body">
+                                <ul>
+                                    <li>HEIGHT<span>70 m / 229.6 ft</span></li>
+                                    <li>DIAMETER<span>3.7 m / 12 ft</span></li>
+                                    <li>MASS<span>549,054 kg / 1,207,920 lb</span></li>
+                                    <li>PAYLOAD TO LEO<span>22,800 kg / 50,265 lb</span></li>
+                                    <li>PAYLOAD TO GTO<span>8,300 kg / 18,300 lb</span></li>
+                                    <li>PAYLOAD TO MARS<span>4,020 kg / 8,860 lb</span></li>
+                                </ul>
+                                Falcon 9 is a reusable, two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of people and payloads into Earth orbit and beyond. Falcon 9 is the world’s first orbital class reusable rocket. Reusability allows SpaceX to refly the most expensive parts of the rocket, which in turn drives down the cost of space access.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog modal-dialog-scrollable" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+                                <p class="modal-title" id="myModalLabel">OVERVIEW</p>
+                            </div>
+                            <div class="modal-body">
+                                <ul>
+                                    <li>HEIGHT<span>70 m / 229.6 ft</span></li>
+                                    <li>WIDTH<span>12.2 m / 39.9 ft</span></li>
+                                    <li>MASS<span>1,420,788 kg / 3,125,735 lb</span></li>
+                                    <li>PAYLOAD TO LEO<span>63,800 kg / 140,660 lb</span></li>
+                                    <li>PAYLOAD TO GTO<span>26,700 kg / 58,860 lb</span></li>
+                                    <li>PAYLOAD TO MARS<span>16,800 kg / 37,040 lb</span></li>
+                                </ul>
+                                Falcon Heavy is the most powerful operational rocket in the world by a factor of two. With the ability to lift into orbit nearly 64 metric tons (141,000 lb) Falcon Heavy can lift more than twice the payload of the next closest operational vehicle, the Delta IV Heavy. Falcon Heavy is composed of three Falcon 9 nine-engine cores whose 27 Merlin engines together generate more than 5 million pounds of thrust at liftoff, equal to approximately eighteen 747 aircraft.                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog modal-dialog-scrollable" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+                                <p class="modal-title" id="myModalLabel">OVERVIEW</p>
+                            </div>
+                            <div class="modal-body">
+                                <ul>
+                                    <li>HEIGHT<span>8.1 m / 26.7 ft</span></li>
+                                    <li>DIAMETER<span>4 m / 13 ft</span></li>
+                                    <li>CAPSULE VOLUME<span>9.3 m³ / 328 ft³</span></li>
+                                    <li>TRUNK VOLUME<span>37 m³ / 1300 ft³</span></li>
+                                    <li>LAUNCH PAYLOAD MASS<span>6,000 kg / 13,228 lbs</span></li>
+                                    <li>RETURN PAYLOAD MASS<span>3,000 kg / 6,614 lb</span></li>
+                                </ul>
+                                The Dragon spacecraft is capable of carrying up to 7 passengers to and from Earth orbit, and beyond. It is the only spacecraft currently flying that is capable of returning significant amounts of cargo to Earth, and is the first private spacecraft to take humans to the space station.                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog modal-dialog-scrollable" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+                                <p class="modal-title" id="myModalLabel">OVERVIEW</p>
+                            </div>
+                            <div class="modal-body">
+                                <ul>
+                                    <li>HEIGHT<span>120 m / 394 ft</span></li>
+                                    <li>DIAMETER<span>9 m / 30 ft</span></li>
+                                    <li>PAYLOAD TO LEO<span>100+ t / 220+ klb</span></li>
+                                </ul>
+                                SpaceX’s Starship spacecraft and Super Heavy rocket (collectively referred to as Starship) represent a fully reusable transportation system designed to carry both crew and cargo to Earth orbit, the Moon, Mars and beyond. Starship will be the world’s most powerful launch vehicle ever developed, with the ability to carry in excess of 100 metric tonnes to Earth orbit.                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="LANDING" id="LANDING">
+                <h3 class="text-left">LANDING</h3>
+                <div class="row">
+                        <div class="col-lg-5 col-lg-offset-1">
+                            SpaceX’s family of Falcon launch vehicles are the first and only orbital class rockets capable of reflight. Depending on the performance required for the mission, Falcon lands on one of our autonomous spaceport droneships out on the ocean or one of our landing zones near our launch pads.
+                            <a class="link_to" href="#LANDING"><video src="./image/spacex.mp4" autoplay muted></video></a>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="nav nav-tabs">
+                                <li><a href="#home" data-toggle="tab">DDRONESHIP</a></li>
+                                <li><a href="#tab1" data-toggle="tab">LANDING ZONE</a></li>
+                            </ul>
+                            <ul class="tab-content">
+                                <li class="tab-pane fade in active" id="home">
+                                    <img src="./image/landing_01.jpg" alt="">
+                                </li>
+                                <li class="tab-pane fade" id="tab1">
+                                    <img src="./image/landing_02.jpg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+            <div class="STARLINK" id="STARLINK">
+                <h3 class="text-center">STARLINK</h3>
+                <div class="container"> 
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6 col-md-6">
+                            <div class="thumbnail">
+                                <img src="./image/starlink_01.jpg" alt="starlink1">
+                                <div class="caption">
+                                    <dl>
+                                        <dt>2021/22 Memberships On-Sale Now</dt>
+                                        <dd>We are excited to welcome back Official Memberships for the 2021/22 season, with new and exclusive digital content now included! <br>We look forward to welcoming you as an Official Member of Chelsea FC.</dd>
+                                    </dl>                              
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col-lg-6 col-sm-6 col-md-6">
+                            <div class="thumbnail">
+                                <img src="./image/starlink_02.jpg" alt="starlink2">
+                                <div class="caption">
+                                    <dl>
+                                        <dt>PRIORITY TICKET ACCESS</dt>
+                                        <dd>Becoming a Member is the best way to watch the Champions of Europe.<br>
+                                            Not only do you pay £5 less than non-members for match tickets (or £2.50 less if you are a junior member), you have a priority booking period for every home and away game.<br>
+                                            </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6 col-md-6">
+                            <div class="thumbnail">
+                                <img src="./image/starlink_03.jpg" alt="starlink3">
+                                <div class="caption">
+                                    <dl>
+                                        <dt>NEW &amp; EXCLUSIVE DIGITAL CONTENT</dt>
+                                        <dd>Now included in your Official Membership is a brand-new range of exclusive digital content.<br>
+                                            The Official Chelsea Members Hub is your new home for your digital content. Including - monthly behind the scenes videos, interviews with CFC players and legends, bespoke wallpaper downloads and much more.</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 col-md-6">
+                            <div class="thumbnail">
+                                <img src="./image/starlink_04.jpg" alt="starlink4">
+                                <div class="caption">
+                                    <dl>
+                                        <dt>EXCLUSIVE COMPETITIONS</dt>
+                                        <dd>Be in with a chance of winning some amazing prizes and attending exclusive events.<br>
+                                            Enter these competitions via the Official Chelsea Members Hub for your chance to win items such as signed shirts and match day tickets or experiences such as open training and player signing sessions. We will host monthly draws, with new competitions released at the end of each month.</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="future">
+                <span>THE FUTURE</span>
+                <div class="container">
+                    <p>“You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars.”
+                        <span>-Elon Musk</span></p>
+                </div>
+                <img class="horizon" src="./image/horizon.jpg" alt="">
+                <img class="elon" src="./image/elon.jpg" alt="">
+            </div>
+        </article>
+        <footer id="footerArea">
+            <div class="footer_box">
+                <img src="./image/spacexlogo.png" alt="#">
+                <a class="topMove" href="#">
+                    <span class="glyphicon glyphicon glyphicon-upload" aria-hidden="true"></span>
+                    <span class="sr-only">TOP</span>
+                </a>
+                <p>©2022 Starlink. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+<script src="./js/scroll.js"></script>
+</body>
+</html>

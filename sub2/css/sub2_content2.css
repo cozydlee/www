@@ -1,0 +1,41 @@
+.infoBird {margin: 120px 0;}
+.infoBird h3{font-size: 3.125em; text-align: center;}
+.infoBird >p{text-align: justify; margin: 80px 130px; font-size: 1.3em;}
+.infoBird div{overflow: hidden;}
+
+.infoBird .top_info {margin-bottom: 40px;}
+.infoBird .top_info dl{float: left; margin-left: 300px;}
+.infoBird .top_info dl::after{content: '' ;background: #ffb400; border-radius: 100px; width: 200px; height: 200px;
+    position: absolute; margin-top: -155px; z-index: -1; margin-left: -35px;
+    transform: scaleX(.7) skew(-15deg);}
+.infoBird .top_info dl:nth-child(1)::after{content: '' ;background: #43bcc6;}
+.infoBird .top_info dl:nth-child(2)::after{content: '' ;background: #a0a19d;}
+
+.infoBird .bottom_info {margin-bottom: 40px;}
+.infoBird .bottom_info dl{float: left; margin: 150px 0 80px 220px;}
+.infoBird .bottom_info dl::after{content: '' ;background: #ffb400; width: 200px; height: 200px; border-radius: 100px;
+    position: absolute; margin-top: -155px; z-index: -1; margin-left: -55px;
+    transform: scaleX(.7) skew(-15deg);}
+.infoBird .bottom_info dl:nth-child(1)::after{content: '' ;background: #ef9a9a;}
+.infoBird .bottom_info dl:nth-child(2)::after{content: '' ;background: #ca9978;}
+.infoBird .bottom_info dl:nth-child(3)::after{content: '' ;background: #f4d284;}
+
+.infoBird dt{text-align: center; font-size: 1.6em; padding-top: 25px; font-weight: 500; 
+    color: #fff;}
+.infoBird dd{text-align: left; font-size: 3.125em; padding-top: 25px;
+    font-weight: 600; position: relative; left: -60px;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);}
+
+.infoBird div p{margin: 40px 600px 0 20px; text-align: justify; line-height: 1.5em;
+    font-size: 1.25em;}
+.infoBird div p:nth-child(1)::after{content: ''; background-image: url(../images/content2/flyBird.jpg); 
+    width: 400px; height: 400px; border-radius: 300px; position: absolute; margin-left: 620px;
+    margin-top: -170px;}
+
+.reserch {position: relative; overflow: hidden;}
+.reserch h3 {padding-right: 400px; font-size: 3.125em;float: right;}
+.reserch ul{line-height: 2.5em; width: 720px; margin-top: 40px;float: right;}
+.reserch h3::after{content: ''; width: 700px; height: 2px;background-color: #ffb400;
+    position: absolute; left: 490px; top: 70px;}
+.reserch img{float: left; margin-top: -820px; transform: scale(.8); margin-left: -200px;}
+

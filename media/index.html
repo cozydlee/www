@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>ELVIS</title>
+<link rel="shortcut icon"  type="image/x-icon"  href="elvis.ico">
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+
+<link rel="stylesheet" href="css/magic.min.css.map">
+<link rel="stylesheet" href="css/magic.min.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/modal-video.min.css">
+<link rel="stylesheet" href="css/layout.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/43cec56aae.js" crossorigin="anonymous"></script>
+<script>
+	// <![CDATA[
+		try {
+			window.addEventListener('load', function(){
+	    	    setTimeout(scrollTo, 0, 0, 1); 
+	    	}, false);
+		} catch(e) {}
+	// ]]>
+</script>
+</head>
+<body>
+	<div id="skipNav">
+	   <a href="#content">본문바로가기</a>
+	   <a href="#gnb">네비게이션바로가기</a>
+   </div>
+
+   <div id="wrap">
+	<button id="play"><i class="fa-solid fa-play"></i></button>
+	<button id="pause"><i class="fa-solid fa-pause"></i></button>
+	<div class="videoBox">
+		    <video autoplay loop muted id="videoBG"></video>
+			<img src="images/back.jpg" id="imgBG">
+			
+			<a class="down" href="#"> <img src="./images/TCBlogo.png" alt="#"><span>SCROLL DOWN</span></a>
+	</div>
+	
+	<div class="box"></div>
+	<header id="headerArea">
+	  <div class="headerInner">
+		  <h1><a href="#">elvis logo</a></h1>
+		  <a href="#" class="menubtn"><i class="fa fa-bars" aria-hidden="true"></i></a>
+		  <nav id="gnb">
+			<h2 class="hidden">네비게이션영역</h2> 
+		  	 <ul>
+		  	 	<li><h3><a href="./sub1.html">ABOUT</a></h3></li>
+		  	 	<li><h3><a href="./sub2.html">CAST</a></h3></li>
+		  	 	<li><h3><a href="./sub3.html">MUSIC</a></h3></li>
+		  	 	<li><h3><a href="./sub4.html">GALLERY</a></h3></li>
+		  	 </ul>
+			 <a href="#" class="close"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+		  </nav>
+		</div>
+	</header>
+	
+	<article id="content">
+		<h2 class="hidden">본문콘텐츠영역</h2>
+			<section class="info invisible">
+				<div class="info_back">
+					<h3><span>about</span> ELVIS</h3>
+					<p >In 1997, Elvis Presley's former manager, Colonel Tom Parker, is on his deathbed, having suffered 
+						a stroke. Nursing a gambling addiction that has left him destitute, he looks back on how he first 
+						met the future King of Rock and Roll.</p>
+					<a href="./sub1.html" class="btn">MORE?</a>
+					<ul class="info_pic">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li>
+							<ul>
+							<li>Directed<span>Starring</span></li>
+							<li>
+								Baz Luhrmann
+								<span>Austin Butler</span>
+								<span>Tom Hanks</span>
+								<span>Olivia DeJonge</span>
+								<span>Helen Thomson</span>
+								<span>Richard Roxburgh</span>
+							</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="characters">
+				<ul class="invisible">
+					<li class="ch_box">
+						<span>Elivs Presley</span>
+						<img src="./images/ch_image1.png" alt="">
+					</li>
+					<li><a href="#"><img src="./images/character_before1.jpg" alt=""></a></li>
+					<li><a href="#"><img src="./images/character_before2.jpg" alt=""></a></li>
+					<li><a href="#"><img src="./images/character_before3.jpg" alt=""></a></li>
+					<li class="caption">
+						<h3 id="cap"><span>about</span> CRARACTERS</h3>
+						<p>the main star of the film and one of the most prominent musicians of the 
+							20th century. Best remembered as “the King of Rock and Roll” by his 
+							massive fanbase, Presley became a memorable cultural icon.</p>
+						<a href="./sub2.html" class="btn">MORE?</a>
+					</li>
+					<li><a href="#"><img src="./images/character_before4.jpg" alt=""></a></li>
+					<li><a href="#"><img src="./images/character_before5.jpg" alt=""></a></li>
+					<li><a href="#"><img src="./images/character_before6.jpg" alt=""></a></li>
+				</ul>
+			</section>
+			<section class="trailers">
+				<ul>
+					<li><a class="prev" href="javascript:;"><i class="fa-solid fa-circle-left"></i></a></li>
+					<li><a class="next" href="javascript:;"><i class="fa-solid fa-circle-right"></i></a></li>
+				</ul>
+				<div>
+					<dl>
+						<dt>trailer 1</dt>
+						<dd>“The way you sing is God-given, so there can't be nothin' wrong with it.”</dd>
+					</dl>
+					<div class="thum">
+						<img src="./images/youtube1.jpg" alt="#">
+					</div>
+					<a class="click_btn js-video-button" data-video-url='https://www.youtube.com/embed/p060n0SI5Rw?autoplay=1' href="#"><i class="fa-brands fa-youtube"></i></a>
+					<a class="click_btn js-video-button" data-video-url='https://www.youtube.com/embed/IftlUkSt5BQ?autoplay=1' href="#"><i class="fa-brands fa-youtube"></i></a>
+					<a class="click_btn js-video-button" data-video-url='https://www.youtube.com/embed/K-zCksladHI?autoplay=1' href="#"><i class="fa-brands fa-youtube"></i></a>
+				</div>
+				<h3><span>about</span> TRAILERS</h3>
+			</section>
+			<section class="tracks" id="tracks2">
+				<ul>
+					<li>
+						<ul class="track_img">
+							<li><img src="./images/track1.jpg" alt=""></li>
+							<li><img src="./images/track2.jpg" alt=""></li>
+							<li><img src="./images/track3.jpg" alt=""></li>
+						</ul>
+					</li>
+					<li>
+						<div>
+							<div class="tracklist" id="lists">
+							</div>
+							<h3><span>about</span> TRACKS</h3>
+							<a href="./sub3.html" class="btn">MORE?</a>
+							<a class="roll" href="#"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+						</div>
+					</li>
+					<li>
+						<ul class="track_youtube">
+							<li><img src="./images/track4.jpg" alt=""><a class="click_btn js-video-button" data-video-url='https://www.youtube.com/embed/XVbl0mQACSM?autoplay=1' href="#"><i class="fa-brands fa-youtube"></i></a></li>
+							<li><img src="./images/track5.jpg" alt=""><a class="click_btn js-video-button" data-video-url='https://www.youtube.com/embed/gdzRaP21FI4?autoplay=1' href="#"><i class="fa-brands fa-youtube"></i></a></li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<div class="cursor hidden">
+				<img src="./images/iloveelvis.png" alt="fllow_img">
+			</div>
+			<section class="photos">
+				<div>
+					<h3><span>about</span> PHOTOS</h3>
+					<p >“You know the story of a bird without feet?
+						When you’re tired, spread your wings
+						Fall asleep with your body in the wind.”</p>
+					<a href="./sub4.html" class="btn">MORE?</a>
+				</div>
+				<ul>
+					<li><img src="./images/photo1.jpg" alt=""></li>
+					<li><img src="./images/photo2.jpg" alt=""></li>
+					<li><img src="./images/photo3.jpg" alt=""></li>
+					<li><img src="./images/photo4.jpg" alt=""></li>
+					<li><img src="./images/photo5.jpg" alt=""></li>
+					<li><img src="./images/photo6.jpg" alt=""></li>
+					<li><img src="./images/photo7.jpg" alt=""></li>
+				</ul>
+			</section>
+	</article>
+	
+	<footer id="footerArea">
+	    <a href="#" class="topmove">top</a>
+		<img src="./images/ELVISfooterlogo.png" alt="">
+		<img class="logo2" src="./images/ELVISfooterlogo640.png" alt="">
+		<p>©2022 Warner Bros. Ent. All Rights Reserved.</p>
+	</footer>
+</div>
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/video.js"></script>
+<script src="./js/character.js"></script>
+<script src="./js/track.js"></script>
+<script src="./js/scroll.js"></script>
+<script src="./js/click.js"></script>
+<script src="js/jquery-modal-video.min.js"></script>
+<script src="./js/modal.js"></script>
+<script src="./js/nav.js"></script>
+<script src="./js/cursor.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+<script src="./js/player.js"></script>
+</body>
+</html>

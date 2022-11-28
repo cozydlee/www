@@ -1,0 +1,39 @@
+{
+    "name": "",
+    "short_name": "",
+    "description": "",
+    "scope": "",
+    "start_url": "",
+    "display": "",
+    "orientation" : "",
+    "background_color" : "#",
+    "theme_color": "#",
+    "icons": [
+      {
+        "src": "images/icons/*.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "images/icons/*.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],  
+    "shortcuts": [
+      {
+        "name": "",
+        "short_name": "",
+        "description": "",
+        "url": "./",
+        "icons": [{ "src": "images/icons/*.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "",
+        "short_name": "",
+        "description": "",
+        "url": "./",
+        "icons": [{ "src": "images/icons/*.png", "sizes": "192x192" }]
+      }
+    ]
+  }

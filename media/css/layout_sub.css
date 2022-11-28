@@ -1,0 +1,327 @@
+/* 와이드 pc  */
+
+#container {
+   padding-top: 50px;
+   width: 700px;
+   height: 400px;
+   margin-left: 100px;
+}
+
+:root {
+   --plyr-color-main: #6b0705;
+   --swiper-theme-color: #6b0705;
+ }
+
+ .swiper-pagination{transform: scale(1.5);}
+
+/*프로그레스바 클릭안되게 처리*/
+.plyr__progress {
+   pointer-events: none;
+}
+
+.imgBox{width:100%;height:100%; overflow:hidden; position:absolute}
+#imgBG1 {
+   position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100; /*다른요소보다 아래에 위치*/
+  
+}
+
+#imgBG2{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+   transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+   display:none;
+}
+
+.down{display: block; font-family: 'Monoton', cursive; position: absolute; 
+	 left:50%; bottom: 10%; animation:ani 1s infinite  alternate;}
+.down img{width: 47px; margin-left: -20px;}
+.down span{display: block; margin-left: -62px; }
+@keyframes ani {
+	0% { transform:scale(1); opacity:1; color:#f0f0f0;}
+	100% { transform:scale(1.2); opacity:0.8; color:#888;}
+}	
+
+#content >h2{position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 6rem; color: #6b0705;}
+#content h3{font-family: 'Monoton', cursive; font-size: 5vw;
+   text-shadow: #f0f0f0 0px 0px 10px, #f0f0f0 0px 0px 5px,  #f0f0f0 0px 0px 1px; 
+   font-weight: 400;}
+
+.critic{overflow: hidden; position: relative;
+   padding: 30px 0; margin: 0 5%;}
+.critic h3{text-align: center; }
+.critic ul{overflow: hidden; display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;}
+.critic li{text-align: left; font-size: 1.4rem;  width: 45%;
+   background-color: rgba(3,3,3,.7); padding: 1%; border-image: url(../images/border.png) 260 /81px;; 
+   border-width: 8px; border-style: solid; margin-bottom: 5%;}
+.critic li:nth-child(1), .critic li:nth-child(3), .critic li:nth-child(5){float: left;}
+.critic li:nth-child(2), .critic li:nth-child(4), .critic li:nth-child(6){float: right;}
+.critic img{height: 73px;float: left; margin-right: 2%;}
+
+.synopsis{padding: 30px 0; position: relative; background-color: rgb(3 3 3);}
+.synopsis h3{margin-left: 10%;}
+.synopsis p{text-align: left; margin: 36px 7%; font-size: 1.4rem; background-color: rgba(3,3,3,.7); padding: 2%; border-image: url(../images/border.png) 260 /81px;; 
+   border-width: 8px; border-style: solid;}
+
+.synopsis div{background: url(../sub_imges/banner.jpg); height: 200px; background-attachment: fixed; }
+
+.synopsis ul{display: none;}
+.synopsis li{box-shadow:#f0f0f0 0 0 18px; display: inline-block;transition: all .5s ease-in-out;
+    height: 300px; width: 100%; margin:2% 4%;}
+.synopsis li:nth-child(1){background: url(../sub_imges/story1.jpg) no-repeat; background-size: cover;}
+.synopsis li:nth-child(2){background: url(../sub_imges/story2.jpg) no-repeat center; background-size: cover;}
+.synopsis li:nth-child(3){background: url(../sub_imges/story3.jpg) no-repeat center; background-size: cover;}
+.synopsis li:hover{transform: scale(1.05); box-shadow:0 0 18px 10px #f0f0f0}
+
+.filming{background-color: rgba(3,3,3,.7); display: flex; padding: 30px 0;}
+.filming h3{margin-left: 10%;}
+.filming p{text-align: left; margin: 36px 4.7%; font-size: 1.4rem; background-color: rgba(3,3,3,.7); padding: 2%; border-image: url(../images/border.png) 260 /81px;; 
+   border-width: 8px; border-style: solid;}
+.filming p span{display: block; padding-top:2%;}
+.filming ul{display: flex;}
+.filming li{box-shadow:#f0f0f0 0 0 18px; display: inline-block;transition: all .5s ease-in-out;
+   height: 300px; width: 100%; margin:6% 5%;}
+.filming li:nth-child(1){background: url(../sub_imges/story6.jpg) no-repeat center;background-size: cover;}
+.filming li:nth-child(2){background: url(../sub_imges/story7.jpg) no-repeat center;background-size: cover;}
+.filming img{width: 40%;margin: 3%;object-fit: cover; box-shadow:#f0f0f0 0 0 18px; display: inline-block;transition: all .5s ease-in-out;}
+.filming li:hover, .filming img:hover{transform: scale(1.05); box-shadow:0 0 18px 10px #f0f0f0}
+
+.travia{background-color: rgba(3,3,3,.7); display: flex; padding: 30px 0; flex-direction: row-reverse;}
+.travia h3{margin-left: 10%;}
+.travia p{text-align: left; margin: 36px 4.7%; font-size: 1.4rem; background-color: rgba(3,3,3,.7); padding: 1%; border-image: url(../images/border.png) 260 /81px;; 
+   border-width: 8px; border-style: solid;}
+.travia p span{display: block; padding-top:2%;}
+.travia ul{display: flex;}
+.travia li{box-shadow:#f0f0f0 0 0 18px; display: inline-block;transition: all .5s ease-in-out;
+   height: 300px; width: 100%; margin:6% 5%;}
+.travia li:nth-child(1){background: url(../sub_imges/story8.jpg) no-repeat;background-size: cover;}
+.travia li:nth-child(2){background: url(../sub_imges/story9.jpg) no-repeat;background-size: cover;}
+.travia img{width: 40%;margin: 3%;object-fit: cover; box-shadow:#f0f0f0 0 0 18px; display: inline-block;transition: all .5s ease-in-out;}
+.travia li:hover ,.travia img:hover{transform: scale(1.05); box-shadow:0 0 18px 10px #f0f0f0}
+
+.main_cast{display: flex; background-color: rgba(3,3,3,.7); padding: 30px 0;}
+.main_cast div:nth-child(2){width: 50%;}
+.main_cast h3{margin-left: 10%;}
+.cast_name{display: grid; grid-template-columns: 1fr 1fr 1fr; text-align: center;}
+.cast_name li a{font-size: 2rem; color: #f0f0f0; font-family: 'Covered By Your Grace', cursive;
+   font-weight: 400; display: block; padding: 30px 0;}
+.cast_name li a:hover{filter: drop-shadow(3px -1px 9px #f0f0f0);}
+.main_cast p{text-align: left; margin: 36px 4.7%; font-size: 1.4rem; background-color: rgba(3,3,3,.7); padding: 1%; border-image: url(../images/border.png) 260 /81px;; 
+   border-width: 8px; border-style: solid;}
+.main_cast span:nth-child(2){display: block; padding-top:2%;}
+.cast_pic {width: 50%;}
+.cast_pic li:nth-child(1){background: url(../sub_imges/castA1.jpg) no-repeat center 30%;
+   height: 500px; background-size: cover; margin: 4%;}
+.cast_pic li:nth-child(2){background: url(../sub_imges/castB1.jpg) no-repeat; height: 500px; background-size: cover; margin: 4%;}
+
+.modal_box2{width: 100%;
+   height: 100%;
+   position: fixed;
+   background: rgba(0, 0, 0, .3);
+   backdrop-filter: blur(2px);
+   top: 46px;
+   z-index: 10;
+   display: none;}
+#Memo{background: rgb(0,0,0,.3);
+   z-index: 60;
+   line-height: 1.4rem;
+   width: 78%;
+   position: fixed;
+   top: 13%;
+   padding: 18% 5%;
+   left: 7%;
+   display: none;
+   font-size: 1.1rem;
+   box-shadow: 5px 10px 10px 1px rgb(0,0,0,.3);
+   border-radius: 10px;}
+#Memo li{text-align: justify; padding-bottom: 10px;}
+
+.popup-head{font-weight: 700;
+   width: 100%;
+   height: 50px;
+   background-color: #6b0705;
+   position: absolute;
+   top: -2px;
+   border-radius: 10px 10px 0 0;
+   left: 0px;
+   text-align: center;
+   font-size: 2rem;
+   line-height: 45px;
+   color: #f0f0f0;}
+
+.popup-foot{font-weight: 700;
+   width: 100%;
+   height: 60px;
+   background-color: #6b0705;
+   position: absolute;
+   bottom: 0;
+   border-radius: 0 0 10px 10px;
+   left: 0;
+   text-align: center;
+   font-size: 2rem;
+   line-height: 0;}
+
+#Memo a{text-align: center;
+   display: block;
+   padding-top: 30px;
+   color: #fff;}
+
+.sub_cast{background-color: rgba(3,3,3,.7); padding: 30px 0;}
+.sub_cast figure.effect-sadie h2{word-spacing: 10px; color: #f2b43c;}
+.sub_cast h3{text-align: center;}
+.sub_cast ul{display: grid;}
+.sub_cast .grid{overflow: hidden; max-width: 1532px;}
+.sub_cast .grid figure figcaption{width: 83%;height: 80%;}
+.sub_cast figure.effect-sadie p{width: 300px;text-align: left;left: 50%;top: 61%;transform: translate(-50%,-50%);}
+
+.artist{background-color: rgba(3,3,3,.7); padding: 30px 0; position: relative;}
+.artist h3{text-align: center; margin-bottom: 30px;}
+.artist .swiper-slide span{font-size: 3rem;margin-left: 30px; font-weight: 600; margin-top: 30px;}
+.artist .swiper-slide p{font-size: 1.4rem; margin-left: 30px; text-align: left; width: 30%; margin-top: 120px;}
+.artist .swiper-slide p, .artist .swiper-slide span{z-index: 2; position: absolute;}
+.artist .swiper-slide::after{content: ''; width: 35%; height: 700px; background-color: #FFE53B;
+   background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+   ; position:absolute; left: 0;z-index: 1;top: 0;}
+.artist .swiper-slide:nth-child(1){background: url(../sub_imges/artist.jpg) no-repeat center 19%; height: 700px; background-size: cover;
+  }
+.artist .swiper-slide:nth-child(2){background: url(../sub_imges/artist2.jpg) no-repeat center 20%; height: 700px; background-size: cover;
+   }
+.artist .swiper-slide:nth-child(3){background: url(../sub_imges/artist3.jpg) no-repeat center 18%; height: 700px; background-size: cover;
+   }
+.artist .swiper-slide:nth-child(4){background: url(../sub_imges/artist4.jpg) no-repeat center ; height: 700px; background-size: cover;
+   }
+
+.album{background-color: rgba(3,3,3,.7); padding: 30px 0 200px; overflow: hidden;}
+.album h3{text-align: center;}
+.album ul{text-align: left; margin: 0 4.7%; font-size: 1.4rem; background-color: rgba(3,3,3,.7); padding: 1%; border-image: url(../images/border.png) 260 /81px;; 
+   border-width: 8px; border-style: solid; height: 490px;}
+.album ul li{line-height: 3.5rem; border-bottom: 1px solid #f2b43c;}
+.album #container{float: left; margin-left: 30px; width: 45%;}  
+
+.album .song_list{padding-top: 5%;width: 45%;float: right;}
+
+.gallery{background-color: rgba(3,3,3,.7); padding: 30px 0; position: relative;}
+.gallery h3{ text-align: center;}
+
+
+/* 트랙용 */
+@media screen and (max-width:1650px) {
+   .sub_cast .grid {margin: 0 15%;}
+
+
+}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+   #content h3{font-size: 3rem;}
+
+   .filming h3{text-align: center; margin-left: 0;}
+   .filming img{display: none;}
+
+   .travia h3{text-align: center; margin-left: 0;}
+   .travia img{display: none;}
+
+   .synopsis h3{text-align: center; margin-left: 0;}
+   .synopsis div{display: none;}
+   .synopsis ul{display: flex;}
+
+   .critic ul {flex-direction: column;
+      align-items: center;}
+   .critic li{margin-bottom: 0; width: 93%; padding: 1%;}
+
+   .sub_cast .grid {margin: 0;}
+
+   .main_cast h3{text-align: center; margin-left:0}
+   .cast_pic{width: 100%;}
+   .main_cast{flex-direction: column;
+      align-items: center;}
+   .main_cast p{margin: 36px -43.3%;}
+
+   .album #container{width: 95%; float: none; margin-left: 20px;}
+   .album .song_list {margin-top: 270px; float: none; width: 100%;}
+
+   .artist .swiper-slide::after {width: 100%; height: 333px; top: auto;bottom: 0;}
+   .artist .swiper-slide p, .artist .swiper-slide span{bottom: 0;}
+   .artist .swiper-slide p{width: 100%; bottom: 40px;}
+   .artist .swiper-slide span{top: 333px;}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   .sub_cast .grid {margin-left: 25%;}
+
+   .album .song_list {margin-top: 100px;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+   .filming ul{display: block;}
+   .filming li{width: 90%;}
+
+   .travia ul{display: block;}
+   .travia li{width: 90%;}
+
+   .critic li:nth-child(4), .critic li:nth-child(5), .critic li:nth-child(6){display: none;}
+   .critic li img{display: block; margin-left: 41%; float: none;}
+
+   .synopsis li:nth-child(3){display: none;}
+
+   .sub_cast .grid {margin: 0;}
+   .grid figure{overflow:unset; position: static; background: none; max-height: none;}
+   figure.effect-sadie p{opacity: 1; position: static;}
+   .sub_cast figure.effect-sadie p{transform: none;}
+   figure.effect-sadie h2{position: static;}
+   figure.effect-sadie figcaption::before{background: none}
+   figure.effect-sadie:hover h2{transform: none;}
+   figure.effect-sadie h2{transform: none;}
+   .grid figure figcaption, .grid figure figcaption >a{position: static;}
+   figure.effect-sadie p{transition: none;  margin-left: 4.5%; margin-right: 0;}
+
+   .cast_pic li:nth-child(1){display: none;}
+   .cast_pic li:nth-child(2){transform: scale(.7); width: 138%; margin-left: -19%; display: none;}
+   .cast_name{grid-template-columns: 1fr 1fr;}
+   .main_cast p{display: none;}
+   .main_cast div:nth-child(2){width: auto;}
+   .memos p{display: block; margin: 0; border-image: none;}
+
+   .main_cast span:nth-child(2){display: none;}
+
+   .album #container{margin-left: 15px;}
+   .album .song_list {margin-top: 30px;}
+
+   .artist .swiper-slide:nth-child(1){height: 1000px;}
+   .artist .swiper-slide:nth-child(2){height: 1000px;}
+   .artist .swiper-slide:nth-child(3){height: 1000px;}
+   .artist .swiper-slide:nth-child(4){height: 1000px;}
+   .artist .swiper-slide span{color:#f2b43c; border-radius: 10%; text-shadow: #6b0705 0px 0px 10px}
+
+   .artist .swiper-slide::after {width: 100%; height: 515px; background-color: rgba(3,3,3,.7); background-image:none}
+   .artist .swiper-slide p{width: 88%; bottom: 80px;}
+
+}

@@ -1,0 +1,32 @@
+.slogun{text-align: center;color: #999;}
+
+.ideology img{position: relative;
+    left: 3%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    width: 93%;}
+
+.ideology ul{background-color: #f0f0f0;
+    border-radius: 8px;
+    margin: 0 4% 0 3%;
+    padding: 10px 20px;
+    line-height: 1.5rem;
+    text-align: justify;}
+.ideology ul li:nth-child(1){padding-bottom: 10px;}
+
+.activity{margin-bottom: 45px;}
+.activity ul{overflow: hidden; line-height: 1.5rem;}
+.activity li{float: left;
+    width: 44%;
+    text-align: center;
+    background: #f0f0f0;
+    border-radius: 8px;
+    height: 267px;
+    margin: 2% 2.5%;
+    background-size: contain;
+    padding: 4.5% 0 16%;}
+.activity img{width: 79%; position: relative;margin-bottom: 10px;border-radius: 8px;}
+.activity dl{padding: 0 6px;}
+.activity dt{padding-bottom: 10px; font-size: 1.2rem;}
+.activity dd{text-align: justify; text-align: justify;
+    padding: 0 8px;}

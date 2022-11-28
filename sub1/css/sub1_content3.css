@@ -1,0 +1,55 @@
+#content .titleArea::after {margin-bottom: -90px;}
+
+.swiper {width: 100%;padding-top: 50px;padding-bottom: 50px;}
+.swiper-slide {background-position: center;background-size: cover;}
+.swiper-slide img {display: block;width: 100%;}
+.mySwiper {width: 40%; float: left;}
+.reverse .mySwiper {width: 40%; float: right;}
+.swiper-pagination {color: #edad14; font-size: 2em; background-color: #fff; border: 2px solid #edad14;
+    box-sizing: border-box;}
+
+#content .contentArea {overflow: hidden; position: relative;}
+#content .contentArea .void{margin-top: 150px;}
+#content .contentArea ul li >div::after{content: ''; background: #edad14; width: 4px; height: 1050px; left: 600px;
+                            position: absolute;}
+#content .contentArea div:hover span::after{margin-top: -5px; transition: all .5s ease-out;}
+#content .contentArea .title{font-size: 3.125em; font-weight: 500; display: block; margin-bottom: 60px;}
+#content .contentArea span::after{content: ''; width: 35px; height: 35px; left: 580px;
+    position: absolute; border-radius: 50px; border: 4px solid #666; margin-top: -50px;
+    transition: all .5s ease-out; background-color: #edad14; transition-delay: .3s; }
+#content .contentArea span::before{content: ''; width: 35px; height: 80px; left: 580px;
+        position: absolute; border-radius: 50px; border: 4px solid #666; margin-top: -50px; background-color: #fff;}
+#content .contentArea .history1{font-size: 1.125em; line-height: 3em; position: relative; left: 380px; display: inline-block;}
+
+#content .reverse .history2{font-size: 1.125em; line-height: 3em;}
+
+.contentArea a.tab {display: block;
+    width: 100px;
+    position: absolute;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    background-color: #edad14;
+    font-weight: bold;
+    padding: 30px 80px;
+    border: 2px solid #dead14;
+    border-radius: 10px;} 
+.contentArea a.tab1{left:10px; top:0}
+.contentArea a.tab1.navOn{left:50%; margin-left: -600px;}
+.contentArea a.tab2{left:315px; top:0}
+.contentArea a.tab2.navOn{left:50%; margin-left: -300px;}
+.contentArea a.tab3{left:625px; top:0}
+.contentArea a.tab3.navOn{left:50%;}
+.contentArea a.tab4{left:930px; top:0}
+.contentArea a.tab4.navOn{left:50%; margin-left: 280px;}
+
+#content .navOn{position: fixed;
+    width: 152px;
+    z-index: 60;
+    background-color: #edad14;
+    border: 0px;
+    color: #fff;}
+#content .navOn:hover{background-color: #fff; z-index: 70;
+    color: #edad14; border: 2px solid #f1f1f1;}
+
+#footerArea{margin-top: 90px;}

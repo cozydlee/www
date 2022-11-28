@@ -1,0 +1,10 @@
+{
+    "character": [
+        {"name":"Elivs Presley","information":"the main star of the film and one of the most prominent musicians of the 20th century. Best remembered as “the King of Rock and Roll” by his massive fanbase, Presley became a memorable cultural icon."},
+        {"name":"Colonel Tom Parker","information":"a Dutch musical entrepreneur, and Elvis Presley’s manager. Emigrated illegally from the Netherlands, Parker originally worked as a carnival worker before moving into the world of music promotion."},
+        {"name":"Priscilla","information":"Elvis Presley’s ex-wife. Priscilla and Elvis first met when the singer was stationed in West Germany while he was in the U.S. Army. The young Priscilla eventually caught the star’s attention and won his affection."},
+        {"name":"Gladys","information":"the mother of Elvis Presley. When Elvis recorded his first song at the age of 18, he dedicated it to his mother. His song was the very spark that immediately threw him into a flare of superstardom."},
+        {"name":"Vernon","information":"father to Elvis and husband to Gladys. Vernon worked hard to make ends meet by taking up small jobs. When Elvis started to obtain success, Vernon accompanied his son and guided him through his newfound fame."},
+        {"name":"B.B. King","information":"the iconic blues singer-songwriter and guitarist best known for his fluid string bending, glittering vibrato, and precise staccato picking - eventually becoming the blueprint for modern guitarists."}
+    ]
+}

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!-- 언어를 한글로 설정함-->
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <!-- PWA 매너페스트 파일 연결, 상태바 테마색상을 흰색으로 변경 -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- 모바일 기기 뷰포트, 브라우저 주소줄 파비콘 설정-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/icons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="stylesheet" href="./common/css/common.css">
+  <link rel="stylesheet" href="./maincss/main.css">
+
+  <script src="./common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/43cec56aae.js" crossorigin="anonymous"></script>
+    <script>
+    // <![CDATA[
+    try {
+    window.addEventListener('load', function(){
+        setTimeout(scrollTo, 0, 0, 1); 
+    }, false);
+    } 
+    catch(e) {}
+    // ]]>
+    </script>
+  <title>한국조류보호협회</title>
+  <style>
+    html,
+    body {
+      /* html, body 모두 높이를 100%로 고정시켜야 flexbox 동작 */
+      height: 100%;
+    }
+
+    .container {
+      height: 100%;
+      /* 높이를 100%로 고정시킴 */
+      display: flex;
+      /* 컨테이너를 flexbox 스타일로 변경 */
+      align-items: center;
+      /* 상하 가운데 정렬 */
+      justify-content: center;
+      /* 좌우 가운데 정렬*/
+    }
+  </style>
+</head>
+
+<body>
+    <!-- 헤더 공통 요소 -->
+<div id="skipNav">
+    <a href="#content">본문바로가기</a>
+    <a href="#gnb">네비게이션바로가기</a>
+</div>
+
+<div id="wrap">
+    <header id="headerArea">
+        <div class="top_menu">
+            <h1><a href="index.html">한국조류보호협회로고</a></h1>
+            <a class="menu_ham" href="#"><span><i class="fas fa-bars fa-2x"></i></span></a>
+        </div>
+        <div class="modal_box"></div>
+
+        <nav id="gnb">
+           <h2 class="hidden">글로벌네비게이션영역</h2>
+            <ul class="joins">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+            <ul class="menu">
+                <li class="depth1 hide">
+                    <h3><a class="trigger" href="#">협회소개</a></h3>
+                    <a class="trigger" href="#"><span></span></a>
+                    <ul class="depth2">
+                        <li><a href="./sub1/sub1_1.html">협회업무</a></li>
+                        <li><a href="./sub1/sub1_2.html">연혁</a></li>
+                        <li><a href="./sub1/sub1_3.html">오시는길</a></li>
+                    </ul>
+                </li>
+                <li class="depth1 hide">
+                    <h3><a class="trigger" href="#">사업안내</a></h3>
+                    <a class="trigger" href="#"><span></span></a>
+                    <ul class="depth2">
+                        <li><a href="./sub2/sub2_1.html">구조활동</a></li>
+                        <li><a href="./sub2/sub2_2.html">캠페인</a></li>
+                    </ul>
+                </li>
+                <li class="depth1 hide">
+                    <h3><a class="trigger" href="#">교육활동</a></h3>
+                    <a class="trigger" href="#"><span></span></a>
+                    <ul class="depth2">
+                        <li><a href="./sub3/sub3_1.html">프로그램</a></li>
+                        <li><a href="./sub3/sub3_2.html">환경보호</a></li>
+                    </ul>
+                </li>
+                <li class="depth1 hide">
+                    <h3><a class="trigger" href="#">소통공간</a></h3>
+                    <a class="trigger" href="#"><span></span></a>
+                    <ul class="depth2">
+                        <li><a href="./sub4/sub4_1.html">후원안내</a></li>
+                        <li><a href="./sub4/sub4_2.html">질의응답</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="url">
+                <li><a href="#"><i class="fa-brands fa-youtube"></i><span></span></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i><span></span></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i><span></span></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="main">
+        <div class="gallery_swiper">
+            <ul>
+                <li>
+                    <img src="./images/main_640.jpg" alt="#">
+                </li>
+                <li>
+                    <img src="./images/main2_640.jpg" alt="#">
+                </li>
+                <li>
+                    <img src="./images/main3_640.jpg" alt="#">
+                </li>
+            </ul>
+        </div>
+        <div class="caption">
+            <p>자연유산 전시회</p>
+            <p>천연기념물의 가치와 중요성</p>
+        </div>
+    </div>
+
+    <article id="content">
+        <h2 class="hidden">본문콘텐츠영역</h2>
+
+       <section class="business">
+        <h3>사업안내</h3>
+        <ul>
+            <li>
+                <i class="fa-solid fa-square-plus"></i>
+                <dl>
+                    <dt>구조활동</dt>
+                    <dd>센터를 운영하며 새들을 구조하고 있습니다.</dd>
+                </dl>
+                <a href="./sub2/sub2_1.html">더보기</a>
+            </li>
+            <li>
+                <i class="fa-regular fa-lightbulb"></i>
+                <dl>
+                    <dt>교육활동</dt>
+                    <dd>교육문화 강좌와 현장학습을 진행합니다.</dd>
+                </dl>
+                <a href="./sub3/sub3_1.html">더보기</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-seedling"></i>
+                <dl>
+                    <dt>환경보호</dt>
+                    <dd>모든 생명을 존중하며 사랑을 실천합니다.</dd>
+                </dl>
+                <a href="./sub3/sub3_2.html">더보기</a>
+            </li>
+        </ul>
+       </section>
+
+       <section class="campaign">
+        <div>
+            <h3>캠페인</h3>
+            <a href="./sub2/sub2_2.html"><i class="fa-solid fa-circle-plus"></i></a>
+        </div>
+        <ul class="eventPic">
+            <li class="contlist"><img src="./images/event_640.jpg" alt="#"></li>
+            <li class="contlist"><img src="./images/event2_640.jpg" alt="#"></li>
+            <li class="contlist"><img src="./images/event3_640.jpg" alt="#"></li>
+        </ul>
+        <ul class="event_title">
+            <li><a class="tab tab1" href="#">새집 달아주기</a></li>
+            <li><a class="tab tab2" href="#">철새 모이주기</a></li>
+            <li><a class="tab tab3" href="#">버드세이버</a></li>
+        </ul>
+        <ul class="event_cap">
+            <li class="contlist2">
+                <p>인공새집은 둥지를 틀지 못하는 새들의 번식을 도와줌으로써 새들에게 거주 공간을 제공하여 
+                    보충하기위한 자연보호활동의 한 예입니다.</p>
+            </li>
+            <li class="contlist2">
+                <p>겨울에는 철새들이 많이 찾아오는 지역을 중심으로 매년(11월~익년 3월 사이) 새 먹이주기 운동을 펼치고 있습니다.</p>
+            </li>
+            <li class="contlist2">
+                <p>윈도우 스트라이크와 이에 대한 대안인 버드세이버 스티커 설치를 위한 캠페인 활동의 일환으로 시행되었습니다.</p>
+            </li>
+        </ul>
+       </section>
+
+       <section class="videos">
+        <h3>홍보영상</h3>
+        <video controls width="290" src="./video/bird_save.mp4"></video>
+        <p>버드세이버 캠페인 홍보</p>
+       </section>
+
+       <section class="goods">
+        <h3>후원굿즈</h3>
+        <div class="list_box">
+            <div class="list_div">
+                <ul class="goodslist">
+                    <li>
+                        <img src="./images/goods_640.jpg" width="107" height="151" alt="#">
+                        <p>키링</p>
+                    </li>
+                    <li>
+                        <img src="./images/goods2_640.jpg" width="107" height="151" alt="#">
+                        <p>파우치</p>
+                    </li>
+                    <li>
+                        <img src="./images/goods3_640.jpg" width="107" height="151" alt="#">
+                        <p>팔찌</p>
+                    </li>
+                    <li>
+                        <img src="./images/goods4_640.jpg" width="107" height="151" alt="#">
+                        <p>에코백</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <a href="./sub4/sub4_1.html">후원 페이지로<span>▶</span></a>
+        </div>
+       </section>
+
+       <div class="rescue">
+        <div>
+            <p>구조 밀렵문의 02-749-4747</p>
+            <p>여러분의 제보를 기다립니다.</p>
+        </div>
+       </div>
+    </article>
+    <!-- 푸터 공통 요소 -->
+    <footer id="footerArea">
+        <div class="footerInner">
+            <a class="topMove" href="#">
+                <span class="hidden">top</span>
+                <i class="fas fa-chevron-circle-up"></i>
+            </a>
+            <div class="footer_top">
+                <ul>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="../../index.html">PC버전</a></li>
+                </ul>
+            </div>
+            <div class="footer_info">
+                <div class="footer_logo">
+                    <span>한국조류보호협회로고</span>
+                </div>
+                <address>
+                    TEL:02-749-4747 FAX:02-749-4748 <br>
+                    (우) 04324 서울특별시 용산구 후암로 91 <br>
+                    COPYRIGHT© 2012 한국조류보호협회 all right reserved
+                </address>
+                <div class="family">
+                    <a class="choice" href="#">family Site</a>
+                    <ul class="aList">
+                        <li><a href="https://me.go.kr" title="환경부 새창에보기" target="_blank">환경부</a></li>
+                        <li><a href="https://knps.or.kr/bird/main.do" title="조류연구센터 새창에보기" target="_blank">조류연구센터</a></li>
+                        <li><a href="https://birdcenter.kr/" title="조류백과사전 새창에보기" target="_blank">조류백과사전</a></li>
+                        <li><a href="http://kwildbird.com/" title="한국야생조류보호협회 새창에보기" target="_blank">한국야생조류보호협회</a></li>
+                        <li><a href="http://diversityinlife.org/" title="생명다양성재단 새창에보기" target="_blank">생명다양성재단</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="./common/js/jquery-1.12.4.min.js"></script>
+<script src="./common/js/jquery-migrate-1.4.1.min.js"></script>
+<script src="./common/js/topmove.js"></script>
+<script src="./common/js/topnav.js"></script>
+<script src="./common/js/depthmenu.js"></script>
+<script src="./common/js/select.js"></script>
+<script src="./common/js/tab.js"></script>
+<script src="./mainjs/custom.js"></script>
+<script src="./mainjs/slide.js"></script>
+
+  <!-- 1. 서비스 워커 등록 -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('./service_worker.js')
+        .then(function () {
+          console.log('서비스 워커가 등록됨!');
+        })
+    }
+  </script>
+</body>
+
+</html>

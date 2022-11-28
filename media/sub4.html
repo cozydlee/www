@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>GALLERY</title>
+<link rel="shortcut icon"  type="image/x-icon"  href="elvis.ico">
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/layout_sub.css">
+<link rel="stylesheet" href="css/grid.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/43cec56aae.js" crossorigin="anonymous"></script>
+<script>
+	// <![CDATA[
+		try {
+			window.addEventListener('load', function(){
+	    	    setTimeout(scrollTo, 0, 0, 1); 
+	    	}, false);
+		} catch(e) {}
+	// ]]>
+</script>
+</head>
+
+<body>
+	<div id="skipNav">
+	   <a href="#content">본문바로가기</a>
+	   <a href="#gnb">네비게이션바로가기</a>
+   </div>
+
+   <div id="wrap">
+	<div class="imgBox">
+			<img src="./sub_imges/sub4_back.jpg"  id="imgBG1"></img>
+			<img src="./sub_imges/sub4_back2.jpg" id="imgBG2">			
+			<a class="down" href="#"> <img src="./images/TCBlogo.png" alt="#"><span>SCROLL DOWN</span></a>
+	</div>
+	
+	<div class="box"></div>
+	<header id="headerArea">
+	  <div class="headerInner">
+		  <h1><a href="./index.html">elvis logo</a></h1>
+		  <a href="#" class="menubtn"><i class="fa fa-bars" aria-hidden="true"></i></a>
+		  <nav id="gnb">
+			<h2 class="hidden">네비게이션영역</h2> 
+		  	 <ul>
+				<li><h3><a href="./sub1.html">ABOUT</a></h3></li>
+				<li><h3><a href="./sub2.html">CAST</a></h3></li>
+				<li><h3><a href="./sub3.html">MUSIC</a></h3></li>
+				<li><h3><a href="#">GALLERY</a></h3></li>
+		  	 </ul>
+			 <a href="#" class="close"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+		  </nav>
+		</div>
+	</header>
+	
+	<article id="content">
+		<h2>GALLERY</h2>
+			<section class="gallery">
+					<h3>GALLERY</h3>
+					<div class="grid">
+						<div class="grid-sizer"></div>
+						<div class="grid-item"><img src="./gallery/gallery1.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery2.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery3.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery4.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery5.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery6.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery7.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery8.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery9.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery10.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery11.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery12.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery13.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery14.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery15.jpg"></div>
+						<div class="grid-item"><img src="./gallery/gallery16.jpg"></div>
+					  </div> 
+			</section>
+	</article>
+	
+	<footer id="footerArea">
+	    <a href="#" class="topmove">top</a>
+		<img src="./images/ELVISfooterlogo.png" alt="">
+		<img class="logo2" src="./images/ELVISfooterlogo640.png" alt="">
+		<p>©2022 Warner Bros. Ent. All Rights Reserved.</p>
+	</footer>
+</div>
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/imgBG.js"></script>
+<script src="./js/nav.js"></script>
+<script src="./js/scrollsub.js"></script>
+<script src="./js/masonry.pkgd.min.js"></script>
+<script>
+	$('.grid').masonry({
+	  itemSelector: '.grid-item',
+	  columnWidth: '.grid-sizer',
+	  percentPosition: true,
+	});
+</script>
+</body>
+</html>

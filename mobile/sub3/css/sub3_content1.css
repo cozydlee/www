@@ -1,0 +1,53 @@
+.school {overflow: hidden;}
+.school h3::after{content: '';display: block; height: 7px; background: #edad14; 
+    margin-top: 20px;}
+.school .caption_box dl{overflow: hidden; margin: 20px 3%;}
+.school .caption_box dt{float: left;
+    font-size: 1.2rem;
+    background: #edad14;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 10px;}
+.school .caption_box dd{text-align: justify;
+    font-size: 1.1rem;
+    margin-left: 140px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px 15px;
+    line-height: 1.5rem;}
+
+.school >dl{margin-top: 45px; overflow: hidden;}
+.school >dl dt{text-align: center; font-size: 1.45em;}
+.school >dl dd{float: left;
+    width: 44.3%;
+    margin: 25px 9px;
+    overflow: hidden;
+    border-radius: 25px; box-shadow: 2px 8px 8px 0px rgba(0,0,0,.3)}
+.school img{width: 100%}
+
+.invite {overflow: hidden; margin-bottom: 35px;}
+.invite h3::after{content: '';display: block; height: 7px; background: #edad14; 
+    margin-top: 20px;}
+.invite .caption_box dl{overflow: hidden; margin: 20px 3%;}
+.invite .caption_box dt{float: left;
+    font-size: 1.2rem;
+    background: #edad14;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 10px;}
+.invite .caption_box dd{text-align: justify;
+    font-size: 1.1rem;
+    margin-left: 140px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px 15px;
+    line-height: 1.5rem;}
+
+.invite >dl{margin-top: 45px; overflow: hidden;}
+.invite >dl dt{text-align: center; font-size: 1.45em;}
+.invite >dl dd{float: left;
+    width: 44.3%;
+    margin: 25px 9px;
+    overflow: hidden;
+    border-radius: 25px; box-shadow: 2px 8px 8px 0px rgba(0,0,0,.3)}
+.invite img{width: 100%}
