@@ -113,53 +113,53 @@
 	margin-left:26px;
 }
 
-#big_picture{float: left;}
+.big_picture{float: left;}
 
-#big_picture img{margin-left: 29px;}
+.big_picture img{margin-left: 29px;}
 
 #list_content {font-size: 1.2em;
 	height: 1340px;
 }
 
-#list_item {
+.list_item {
 	height:110px;
 	margin-top:2px;
 	padding:6px;  
 	border-bottom:solid 1px #eeeeee;
 }
 
-#list_item #list_item1{
+.list_item .list_item1{
 	float:left;
 	width:68px;
 	text-align:center;
 }
 
-#list_item #list_item2{
+.list_item .list_item2{
 	float:left;
 	width:624px;
 	text-align: center;
 }
 
-#list_item #list_item3{
+.list_item .list_item3{
 	float: left;
     width: 136px;
     text-align: center;
     margin-right: 10px;
 }
 
-#list_item #list_item4{
+.list_item .list_item4{
 	float:left;
 	width:169px;
 	text-align:center;
 }
 
-#list_item #list_item5{
+.list_item .list_item5{
 	float:left;
 	width:40px;
 	text-align:center;
 }
 
-#list_item2 span{
+.list_item2 span{
 	font-size: .7em;
     position: relative;
     right: 15px;

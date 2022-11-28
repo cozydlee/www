@@ -3,7 +3,7 @@
 	$table = "concert";
 ?>
 <!DOCTYPE HTML>
-<html>
+<html lang="ko">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -114,7 +114,7 @@
 					<option value='category'>카테고리</option>
 				</select></div>
 			<div id="list_search4"><input type="text" name="search"></div>
-			<div id="list_search5"><input type="image" src="./image/search.svg"></div>
+			<div id="list_search5"><input type="image" src="./image/search.svg" alt="검색"></div>
 		</div>
 		</form>
 
@@ -167,14 +167,14 @@
 	  $item_img = './data/default.jpg';
    }
 ?>
-			<div id="list_item">
-				<div id="list_item1"><?= $number ?></div>
-				<div id=big_picture><img src="<?=$item_img?>" style="width:100px; height:100px"></div>
-				<div id="list_item2"><a href="view.php?table=<?=$table?>&num=<?=$item_num?>&page=<?=$page?>&scale=<?=$scale ?>&mode2=<?=$mode2 ?>">
+			<div class="list_item">
+				<div class="list_item1"><?= $number ?></div>
+				<div class=big_picture><img src="<?=$item_img?>" style="width:100px; height:100px" alt="도감사진"></div>
+				<div class="list_item2"><a href="view.php?table=<?=$table?>&num=<?=$item_num?>&page=<?=$page?>&scale=<?=$scale ?>&mode2=<?=$mode2 ?>">
 				<span><?= $item_category ?></span><?= $item_subject ?></a></div>
-				<div id="list_item3"><?= $item_nick ?></div>
-				<div id="list_item4"><?= $item_date ?></div>
-				<div id="list_item5"><?= $item_hit ?></div>
+				<div class="list_item3"><?= $item_nick ?></div>
+				<div class="list_item4"><?= $item_date ?></div>
+				<div class="list_item5"><?= $item_hit ?></div>
 			</div>
 <?
    	   $number--;
@@ -219,14 +219,14 @@
 		<? include "../../common/php_footer.html" ?>
 <script>
 
-	for (i = 0; i < $("#list_content #list_item").length; i++) {
+	for (i = 0; i < $("#list_content .list_item").length; i++) {
 		
-	var text =  $('#list_content #list_item span:eq('+[i]+')').text();
+	var text =  $('#list_content .list_item span:eq('+[i]+')').text();
 
 	if(text == '야생조류'){
-		$('#list_content #list_item span:eq('+[i]+')').css({border: '1px solid #edad14'})
+		$('#list_content .list_item span:eq('+[i]+')').css({border: '1px solid #edad14'})
 	}else if(text == '야생수류'){
-		$('#list_content #list_item span:eq('+[i]+')').css({border: '1px solid green'})
+		$('#list_content .list_item span:eq('+[i]+')').css({border: '1px solid green'})
 	}else{
 
 	}
