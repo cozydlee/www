@@ -51,11 +51,6 @@
 	backface-visibility: hidden;
 }
 
-.grid figure figcaption::before,
-.grid figure figcaption::after {
-	pointer-events: none;
-}
-
 .grid figure figcaption,
 .grid figure figcaption > a {
 	position: absolute;
