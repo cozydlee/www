@@ -7,15 +7,15 @@
       width="100%"
       height="83px"
     >
-      <router-link to="/main"><h1 class="logo">백년가게 로고</h1></router-link>
+      <router-link to="/vue/main"><h1 class="logo">백년가게 로고</h1></router-link>
       <v-btn class="d-md-none" text @click="toggleClass()">
       <v-app-bar-nav-icon />
       </v-btn>
       <nav class="navigation" v-bind:class="[isActive ? 'd-block' : '']">
 				<h2 class="hidden">글로벌네비게이션영역</h2>
 				<ul class="navbar-nav">
-					<li class="nav-item"><h3 class="nav-link"><router-link to="/main">사업소개</router-link></h3></li>
-					<li class="nav-item"><h3 class="nav-link"><router-link to="/sub">점포안내</router-link></h3></li>
+					<li class="nav-item"><h3 class="nav-link"><router-link to="/vue/main">사업소개</router-link></h3></li>
+					<li class="nav-item"><h3 class="nav-link"><router-link to="/vue/sub">점포안내</router-link></h3></li>
 				</ul>
       </nav>
           </v-app-bar>

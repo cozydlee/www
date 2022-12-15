@@ -49,7 +49,7 @@
                     to="/"
                     elevation="0"
                   >
-                    <span><router-link to="/sub">더 보기</router-link></span>
+                    <span><router-link to="/vue/sub">더 보기</router-link></span>
                     <i class="mdi mdi-arrow-right"></i>
                   </v-btn>
                 </div>

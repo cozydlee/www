@@ -10,9 +10,9 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    { path: '/', component: sub_page},
-    { path: '/main', component: main_page},
-    { path: '/sub', component: sub_page}
+    { path: '/vue/', component: sub_page},
+    { path: '/vue/main', component: main_page},
+    { path: '/vue/sub', component: sub_page}
   ]
 })
 
