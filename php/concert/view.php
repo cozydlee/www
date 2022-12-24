@@ -178,15 +178,5 @@
 </article>
 
 		<? include "../../common/php_footer.html" ?>
-<script>
-	if($('#content_img img').attr('src') == './data/2022_11_24_10_31_14_0.jpg'){
-
-			$('#content_img').click(function() {
-			$('#content_img img').hide();
-			$('#content_img').html('<video controls src="./image/sakura.mp4" width="1200px">');
-			});
-
-	};
-</script>
 </body>
 </html>

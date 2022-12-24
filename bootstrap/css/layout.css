@@ -92,10 +92,6 @@
 .future {background-color: #000; position: relative;}
 .future span{display: block;text-align: center; font-size: 64px; color: #f0f0f0; transition: all .5s ease-in-out;}
 .future .horizon{width: 100%; opacity: 0; animation-fill-mode: forwards;}
-.future .elon{position: absolute;
-    right: -19%;
-    width: 19%;
-    filter: opacity(0.5);}
 .over{animation: tada 4s;}
 .run{animation: run 2s; animation-delay: 4s;}
 @keyframes tada{
@@ -119,8 +115,6 @@ footer a{position: fixed;
 footer a span{font-size: 5rem;
     color: #1853b1; }
 footer p{text-align: right; color: #f0f0f0;}
-
-.dogemode{background:url(../image/dogemode.gif)  rgba( 255, 255, 255, 0.5 ); background-blend-mode: color;}
 
 /* 일반pc */
 @media screen and (max-width:1200px) {

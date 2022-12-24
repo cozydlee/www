@@ -164,7 +164,7 @@
 	if($row[file_copied_0]){
 	  $item_img = './data/'.$row[file_copied_0];
    }else{
-	  $item_img = './data/default.jpg';
+	  $item_img = './data/default.png';
    }
 ?>
 			<div class="list_item">
