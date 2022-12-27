@@ -1,5 +1,3 @@
-// JavaScript Document
-
 var ns4=document.layers
 var ie4=document.all
 var ns6=document.getElementById&&!document.all

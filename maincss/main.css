@@ -1,4 +1,4 @@
-/* 비주얼 영역 */
+
 .main{ position:relative; overflow:hidden; height:900px; width: 2000px; margin: 0 auto;}
 
 .gallery{position:relative;left:0; top:0; overflow:hidden; height:900px;}
@@ -28,7 +28,6 @@
 .dock .ps{ margin-right:15px; margin-top: -1px; cursor:pointer; 
         display:block; float:left; width:25px; height:25px; font-size: 1.1em;}
 
-/* 본문 콘텐츠 영역 */
 #content .more, .main .more{font-size: 16px; text-align: center;
         border-radius: 20px; font-weight: 700;
         width:150px; background-color: #edad14;padding: 15px 0;
