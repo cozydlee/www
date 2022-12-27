@@ -1,4 +1,4 @@
-//네비게이션, top
+
 
 $(document).ready(function() {
 

@@ -1,16 +1,16 @@
 $(document).ready(function(){  		
     
  var startX, endX;
- var position = 0; //최초위치
- var movesize = 115; //이미지 하나의 너비(리뷰)
+ var position = 0; 
+ var movesize = 115; 
 
- $('.goodslist').after($('.goodslist').clone()).after($('.goodslist').clone()); //슬라이드 겔러리를 한번 복제
+ $('.goodslist').after($('.goodslist').clone()).after($('.goodslist').clone()); 
 
     $('.list_box').on('touchstart mousedown',function(e){
     
-        if(e.pageX==undefined){  //모바일이면...
+        if(e.pageX==undefined){  
             startX = e.originalEvent.touches[0].pageX;
-          }else{  //데스크탑이면..
+          }else{  
             e.preventDefault();
             startX=e.pageX;
           }
@@ -27,15 +27,13 @@ $(document).ready(function(){
            endX=e.pageX ;
          }
             
-    //$('body').append(endX + '<br>');
         
     if(startX-endX>20) {
-        //$('body').append(' 오른쪽으로 터치드래그' + '<br>');
         if (position <= -460) {
             $('.list_div').css('left', 0);
             position = 0;
         }
-        position -= movesize; // 400씩 감소
+        position -= movesize; 
         $('.list_div').stop().animate({
             left: position
         }, 'slow', function () {
@@ -46,15 +44,14 @@ $(document).ready(function(){
         }).clearQueue();
         
     }else if(startX-endX<-20){      
-        //$('body').append(' 왼쪽로 터치드래그' + '<br>');
-        if (position >= 0) { // 처음에 다음버튼을 클릭하면 빠르게 옮겨주기(이전 버튼은 원래 있으니 괜춘)
+        if (position >= 0) { 
             $('.list_div').css('left', -460);
             position = -460;
         }
-        position += movesize; // 150씩 증가
+        position += movesize; 
         $('.list_div').stop().animate({
             left: position
-        }, 'slow', function () { // 포문 : 다음버튼 클릭했을 때 이미지 위치가 0일경우 옮겨주기				
+        }, 'slow', function () {			
             if (position == 0) {
                 $('.list_div').css('left', -460);
                 position = -460;

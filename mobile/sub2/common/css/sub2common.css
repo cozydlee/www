@@ -1,4 +1,4 @@
-/* 서브페이지 공통영역 */
+
 .main{overflow: hidden; position: relative; margin-top: 46px; background: url(../image/visual_03.jpg) no-repeat center;
 background-size: cover; height: 100px;}
 .main h3{margin-top: 40px;text-align: center;color: #f0f0f0;font-size: 1.5rem;}

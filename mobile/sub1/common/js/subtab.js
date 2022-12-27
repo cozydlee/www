@@ -1,13 +1,5 @@
 $(document).ready(function() {
-  /*	
- $('.select .arrow').click(function(){
-   $('.select .aList').fadeIn('slow');			  
- });
 
- $('.select .aList').mouseleave(function(){
-   $(this).fadeOut('fast');			  
- });
- */
 
  $('.subNav .choice').find('span').html('<i class="fa-solid fa-chevron-down"></i>')
 
@@ -19,7 +11,6 @@ $(document).ready(function() {
        $('.subNav').css('border-radius','27px');
  });
 
- //tab키 처리
    $('.subNav .choice').on('focus', function () {        
              $('.subNav .aList').fadeIn('fast');
              $('.subNav').css('border-radius','27px 27px 0 0');
