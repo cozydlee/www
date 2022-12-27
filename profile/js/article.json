@@ -1,0 +1,58 @@
+{
+    "article": [
+      {
+        "word": "PC웹",
+        "dt": "한국조류보호협회",
+        "dd": "한국조류보호협회 홈페이지를 html5/css3를 사용하여 새롭게 구현했습니다. 또한 이미지로 표현되어있던 텍스트와 이미지 alt누락 등의 문제점을 웹표준과 접근성을 준수한 방식으로 개선하였습니다.",
+        "href": "https://eindjel2.cafe24.com/",
+        "qrcode": "img/QRCode.jpg",
+        "date": "약 1개월",
+        "skill": "HTML5, CSS3, javascript, jQuery, PHP, Photoshop, MySQL"
+      },
+      {
+        "word": "모바일웹",
+        "dt": "한국조류보호협회",
+        "dd": "PC용으로 구현된 한국조류보호협회 홈페이지를 모바일 기기에 적합한 UI를 적용하여 새롭게 구현한 모바일용 웹사이트입니다. 마우스가 아닌 사용자의 터치 이벤트를 중점적으로 구현했으며, PC버전과는 다르게 사용자 경험을 고려하여 간략화된 컨텐츠와 메뉴로 구성하였습니다. 또한, cordova를 이용하여 프로그레시브 웹 앱 (Progressive Web App)으로 이용가능하도록 만들었습니다.",
+        "href": "https://eindjel2.cafe24.com/mobile/",
+        "qrcode": "img/QRCode2.jpg",
+        "date": "약 1개월",
+        "skill": "HTML5, CSS3, javascript, jQuery, Photoshop, cordova"
+      },
+      {
+        "word": "반응형웹",
+        "dt": "ELVIS",
+        "dd": "ELVIS를 주제로 한 반응형 웹사이트입니다. 디바이스의 다양한 해상도를 고려하여 각 해상도 별로 최적화된 UI로 구성하여 사용자가 폭 넓게 이용할 수 있도록 반응형 웹을 구축했습니다.",
+        "href": "https://eindjel2.cafe24.com/media/",
+        "qrcode": "img/QRCode3.jpg",
+        "date": "약 1개월",
+        "skill": "HTML5, CSS3, javascript, jQuery, MediaQuery, PhotoshopL"
+      },
+      {
+        "word": "부트스트랩",
+        "dt": "SPACEX",
+        "dd": "SPACEX를 주제로 한 반응형 웹사이트입니다. 프레임워크 중 제일 인지도가 높은 부트스트랩을 사용하여 주제 이미지에 맞는 디자인과 레이아웃을 보다 간편하고 빠르게 구현했습니다.",
+        "href": "https://eindjel2.cafe24.com/bootstrap/",
+        "qrcode": "img/QRCode4.jpg",
+        "date": "약 1개월",
+        "skill": "HTML5, CSS3, javascript, jQuery, MediaQuery, Photoshop, bootstrap"
+      },
+      {
+        "word": "워드프레스",
+        "dt": "극지연구소",
+        "dd": "극지연구소를 주제로 CMS 중 워드프레스를 사용한 반응형 웹사이트입니다. 워드프레스의 테마와 플러그인을 사용하여 컨셉에 맞는 디자인과 레이아웃을 보다 간편하고 빠르게 구현했습니다.",
+        "href": "https://eindjel2.cafe24.com/wordpress/",
+        "qrcode": "img/QRCode5.jpg",
+        "date": "약 1개월",
+        "skill": "HTML5, CSS3, javascript, jQuery, MediaQuery, Photoshop, wordpress"
+      },
+      {
+        "word": "Vue",
+        "dt": "백년가게",
+        "dd": "자바스크립트 프레임워크인 Vue를 사용해 만든 웹사이트입니다. Python의 BeautifulSoup와 requests를 이용해 웹 파싱을 통해 자료를 얻어 이용했습니다.",
+        "href": "https://eindjel2.cafe24.com/vue/",
+        "qrcode": "img/QRCode6.jpg",
+        "date": "약 1개월",
+        "skill": "HTML5, CSS3, javascript, jQuery, MediaQuery, Photoshop, MySQL, Vue, Python"
+      }
+    ]
+  }

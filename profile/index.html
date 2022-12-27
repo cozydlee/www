@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>프로필</title>
+	<meta name="author" content="Matthew Howell" />
+	<meta name="description" content="fullPage continuous scrolling demo." />
+	<meta name="keywords"  content="fullpage,jquery,demo,scroll,loop,continuous" />
+	<meta name="Resource-type" content="Document" />
+
+	<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+	/>
+	<link rel="stylesheet" type="text/css" href="./css/card.css">
+	<link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="./css/examples.css" />
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="./vendors/scrolloverflow.js"></script>
+	<script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+			  anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thPage', '8thPage'],
+			  menu: '#menu',
+			  continuousVertical: true
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<ul id="menu">
+	<li data-menuanchor="firstPage" class="active"><a href="#firstPage">소개말</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">프로필</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">PC웹</a></li>
+	<li data-menuanchor="4thPage"><a href="#4thPage">모바일웹</a></li>
+	<li data-menuanchor="5thPage"><a href="#5thPage">반응형웹</a></li>
+	<li data-menuanchor="6thPage"><a href="#6thPage">부트스트랩</a></li>
+	<li data-menuanchor="7thPage"><a href="#7thPage">워드프레스</a></li>
+	<li data-menuanchor="8thPage"><a href="#8thPage">Vue</a></li>
+</ul>
+
+<div id="fullpage">
+	<div class="section active" id="section0">
+		<h1 class="hidden">소개말</h1>
+		<p class="mega t1">WEB PORTFOLIO</p>
+		<p><span class="hi"></span></p>
+		<canvas id="canvas" width="400" height="400"></canvas>
+		<img id="hand" class="hidden" src="./img/1.png" alt="버그용">
+		<div id="subpic1"></div>
+		<div id="subpic2"></div>
+	</div>
+	<div class="section" id="section1">
+		<h1 class="hidden">프로필</h1>
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+			  <div class="swiper-slide"></div>
+			  <div class="swiper-slide"></div>
+			</div>
+		  </div>
+		<div class="button link">
+			<a href="https://github.com/cozydlee/www.git" target="_blank">Git Hub</a><a href="./file/WEB_PORTFOLIO_이도원.pdf" target="_blank">스토리보드</a><a href="resume/application.html" target="_blank">온라인 이력서</a>
+		</div>
+		<table class="table">
+			<thead></thead>
+			<tbody>
+				<tr>
+				<th>이름 :</th>
+				<td>이도원</td>
+				</tr>
+				<tr>
+				<th>지원부분 :</th>
+				<td>웹 퍼블리셔 · 프론트 엔드 개발</td>
+				</tr>
+				<tr>
+				<th>연락처 :</th>
+				<td>010-3464-5156</td>
+				</tr>
+				<tr>
+				<th>이메일 :</th>
+				<td>eindjel2@naver.com</td>
+				</tr>
+			</tbody>
+		</table>
+		<div>
+			<dl class="skill">
+				<dt>SKILL</dt>
+				<dd id="skill">
+				</dd>
+			</dl>
+		</div>
+		<img id="hand" class="hidden" src="./img/1.png" alt="버그용">
+		<div id="subpic1"></div>
+		<div id="subpic2"></div>
+	</div>
+	<div class="section" id="section2"></div>
+	<div class="section" id="section3"></div>
+	<div class="section" id="section4"></div>
+	<div class="section" id="section5"></div>
+	<div class="section" id="section6"></div>
+	<div class="section" id="section7"></div>
+</div>
+
+<script src="./js/typer.js"></script>
+<script>	
+		window.onload=function(){	
+			var el       = document.querySelector('.hi')
+			var options  = {
+				text: '안녕하세요 배움을 commit하며 발전하는 \n 개발자 이도원입니다.',
+			textSpeed: 95,
+			blinkSpeed: 0.06
+			}
+
+			var instance = new tinytyper(el, options);
+			
+		}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/snaiper.js"></script>
+<script type="importmap">
+  {
+    "imports": {
+        "three": "https://unpkg.com/three@0.141.0/build/three.module.js",
+        "GLTFLoader" : "https://unpkg.com/three@0.141.0/examples/jsm/loaders/GLTFLoader.js",
+		"OrbitControls" : "https://unpkg.com/three@0.141.0/examples/jsm/controls/OrbitControls.js"
+    }
+  }
+</script>
+<script type="module" src="./js/three.js" defer></script>
+<script src="./js/event.js" defer></script>
+<script src="./js/text.js" defer></script>
+<script src="./js/star.js"></script>
+</body>
+
+</html>
