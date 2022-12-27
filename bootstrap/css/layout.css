@@ -34,7 +34,6 @@
 
             .modal-content{background-color: #000;}
 
-/* 와이드 pc */
 .main_visual{margin-bottom: -30px;}
 
 #content {overflow: hidden;}
@@ -116,23 +115,7 @@ footer a span{font-size: 5rem;
     color: #1853b1; }
 footer p{text-align: right; color: #f0f0f0;}
 
-/* 일반pc */
 @media screen and (max-width:1200px) {
 .MISSON img{width: 100%;}
 .MISSON .a1, .MISSON  .a2{background-size: contain; transform: scale(.9);}
-}
-
-/* 테블릿 */
-@media screen and (max-width:992px) {
-
-}
-
-/* 소형테블릿 */
-@media screen and (max-width:768px) {
-
-}
-
-/* 모바일 */
-@media screen and (max-width:640px) {
-
 }
