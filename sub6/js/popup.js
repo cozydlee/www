@@ -1,5 +1,4 @@
 
-//팝업창
 $(document).ready(function() {
 
 
@@ -30,7 +29,6 @@ $(document).ready(function() {
             }
             print();
 
-            //메뉴 변환
             $(this).ready(function(){
 
                 $(".contentArea .letterMenu li:eq(0)").hover(function(e){
@@ -66,7 +64,6 @@ $(document).ready(function() {
             });
 
 
-            // click
             $('.letterList ul li a').click(function(e){
                 e.preventDefault();
 
@@ -132,20 +129,19 @@ $(document).ready(function() {
     }
 
 
-    /*슬라이드*/
-    var position = 0; //최초위치
-    var movesize = 1200; //이미지 하나의 너비(리뷰)
-    $('.issue .issueList').after($('.issue .issueList').clone()); //슬라이드 겔러리를 한번 복제
-    $('.issue a.issueBtn').click(function (e) { //버튼 클릭 시
+    var position = 0;
+    var movesize = 1200; 
+    $('.issue .issueList').after($('.issue .issueList').clone()); 
+    $('.issue a.issueBtn').click(function (e) { 
         e.preventDefault();
 
-        if ($(this).is('.issue a.m1')) { //이전버튼 클릭
+        if ($(this).is('.issue a.m1')) { 
             
             if (position <= -1200) {
                 $('.issue .listDiv').css('left', 0);
                 position = 0;
             }
-            position -= movesize; // 400씩 감소
+            position -= movesize; 
             $('.issue .listDiv').stop().animate({
                 left: position
             }, 'slow', function () {
@@ -155,15 +151,15 @@ $(document).ready(function() {
                 }
             });
 
-        } else if ($(this).is('.issue a.m2')) { //다음버튼 클릭
-            if (position >= 0) { // 처음에 다음버튼을 클릭하면 빠르게 옮겨주기(이전 버튼은 원래 있으니 괜춘)
+        } else if ($(this).is('.issue a.m2')) { 
+            if (position >= 0) { 
                 $('.issue .listDiv').css('left', -1200);
                 position = -1200;
             }
-            position += movesize; // 150씩 증가
+            position += movesize; 
             $('.issue .listDiv').stop().animate({
                 left: position
-            }, 'slow', function () { // 포문 : 다음버튼 클릭했을 때 이미지 위치가 0일경우 옮겨주기				
+            }, 'slow', function () {			
                 if (position == 0) {
                     $('.issue .listDiv').css('left', -1200);
                     position = -1200;
@@ -172,7 +168,6 @@ $(document).ready(function() {
         }
     });
 
-            // click
 
             $('.listDiv ul li a').click(function(e){
             var ind = $(this).index('.listDiv ul li a');
@@ -213,11 +208,11 @@ $(document).ready(function() {
              
                     $('.pop .popup').hide().fadeIn('slow'); 
                    
-                   if($(this).hasClass('pre')){ // 3 2 1 0 3 2 1 0
+                   if($(this).hasClass('pre')){
                     $('.issue_view').css('background','url(./images/content2/issue' + ind + '.jpg) center no-repeat')
                     .css('background-size','contain');
                        pop_change();
-                   }else if($(this).hasClass('next')){ // 0 1 2 3 0 1 2 3
+                   }else if($(this).hasClass('next')){ 
                     $('.issue_view').css('background','url(./images/content2/issue' + ind + '_1.jpg) center no-repeat')
                     .css('background-size','contain');
                        pop_change();
@@ -260,11 +255,11 @@ $(document).ready(function() {
              
                     $('.pop .popup').hide().fadeIn('slow'); 
                    
-                   if($(this).hasClass('pre')){ // 3 2 1 0 3 2 1 0
+                   if($(this).hasClass('pre')){ 
                     $('.issue_view').css('background','url(./images/content2/issue' + (ind-3) + '.jpg) center no-repeat')
                     .css('background-size','contain');
                        pop_change();
-                   }else if($(this).hasClass('next')){ // 0 1 2 3 0 1 2 3
+                   }else if($(this).hasClass('next')){
                     $('.issue_view').css('background','url(./images/content2/issue' + (ind-3) + '_1.jpg) center no-repeat')
                     .css('background-size','contain');
                        pop_change();

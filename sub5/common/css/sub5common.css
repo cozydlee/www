@@ -1,4 +1,4 @@
-/* 서브페이지 공통영역 */
+
 .main{width: 2000px; height: 500px; position: relative; left: 50%; top: 0; margin-left: -1000px; background: url(../image/visual_06.jpg) no-repeat;}
 .main h3{font-size: 2.5em; color: #fff; position: absolute;
     left: 50%; top: 200px; margin-left: -75px; font-weight: 500;}

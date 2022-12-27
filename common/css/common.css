@@ -1,7 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
-/* CSS Reset */
 
 html, body, div , span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -36,12 +35,7 @@ img{border: 0; vertical-align: top}
         padding: 10px 0; background: #f2f2f2;}
 
 .wrap{width: 100%; overflow: hidden;}
-/* font-family: 'Noto Sans KR', sans-serif; */
-/* font-family: 'Roboto', sans-serif; */
-/* font-family: 'Nanum Gothic', sans-serif; */
 
-
- /* header 공통영역 */ 
 #headerArea{width: 100%; height: 120px; position:fixed; left: 0; top:0; background: #fff;z-index: 50;
             border-bottom: 1px solid #f1f1f1;}
 
@@ -60,7 +54,6 @@ img{border: 0; vertical-align: top}
     position: absolute; left: 20%; z-index: 50;}
 #headerArea nav li ul{display: none;}
 
-    /* 2depth */
 #gnb ul.dropdownmenu li ul{width:100%; height:300px; position:absolute; top:50px; left:0;
         padding:15px 0; line-height:2em; display:none; font-size: .8em;}
 #gnb ul.dropdownmenu li ul li{ text-align:center; font-weight:bold; margin-left: -60px; margin-top: 15px;
@@ -73,7 +66,6 @@ img{border: 0; vertical-align: top}
 #headerArea .topMenu ul li{float: left; padding: 0 10px;}
 #headerArea .topMenu a{color: #666;}
 
-/* footer 공통영역 */ 
 #footerArea{width:100%;background: #ccc; position: relative; height: 290px;}
 #footerArea::after{content: ''; display: block; width: 100%; height: 60px; background: #666; position: absolute;
    left:0; top:0; z-index: 10;}

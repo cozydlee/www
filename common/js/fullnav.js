@@ -1,7 +1,6 @@
 
 $(document).ready(function() {
   
-    //2depth 열기/닫기
     $('ul.dropdownmenu').hover(
        function() { 
           $('ul.dropdownmenu li.menu ul').fadeIn('normal',function(){$(this).stop();});
@@ -11,7 +10,6 @@ $(document).ready(function() {
           $('#headerArea').animate({height:120},'fast').clearQueue();
      });
     
-     //1depth 효과
      $('ul.dropdownmenu li.menu').hover(
        function() { 
            $('.depth1',this).css('color','#edad14').css('transition','all .5s');
@@ -20,7 +18,6 @@ $(document).ready(function() {
      });
      
 
-     //tab 처리
      $('ul.dropdownmenu li.menu .depth1').on('focus', function () {        
         $('ul.dropdownmenu li.menu ul').slideDown('normal');
         $('#headerArea').animate({height:300},'fast').clearQueue();

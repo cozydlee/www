@@ -255,13 +255,13 @@
             </section>
         </article>
         <? include "./common/main_footer.html" ?>
-    <!-- 공지팝업 -->
+
     <div id="showimage" style="z-index:40;position:absolute;width:322px;left:100px;top:250px;">
         <script>
           function closeWin(){
              var chk = document.getElementById('Notice')
              if ( chk.checked ) {
-                   setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+                   setCookie( "Notice", "done" , 1);
               }
           }
          if ( getCookie( "Notice" ) == "done" ) {

@@ -5,7 +5,6 @@ var total=0;
 
         $('.img_box li:eq(0)').fadeIn('slow');
         total = $('.img_box li').size();
-        //console.log(total);
 
         $('.next').click(function(){
             cnt++;

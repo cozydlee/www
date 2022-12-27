@@ -1,4 +1,4 @@
-/* 인사말 본문영역 */
+
 .contentArea{position: relative;}
 #content div{overflow: hidden;}
 #content img{transform: scale(.8); float: left; margin-left: 60px;}
