@@ -1,11 +1,6 @@
 <? 
 	session_start();
 
-		/*
-	$num=1 => 게시글번호
-	$
-	*/
-
 
 	@extract($_GET); 
   @extract($_POST); 
@@ -17,7 +12,6 @@
 	$result = mysql_query($sql, $connect);
 
     $row = mysql_fetch_array($result);       
-      // 하나의 레코드 가져오기
 	
 	$item_num     = $row[num];
 	$item_id      = $row[id];
@@ -40,7 +34,7 @@
 
 	$new_hit = $item_hit + 1;
 
-	$sql = "update greet set hit=$new_hit where num=$num";   // 글 조회수 증가시킴
+	$sql = "update greet set hit=$new_hit where num=$num"; 
 	mysql_query($sql, $connect);
 ?>
 <!DOCTYPE HTML>
@@ -57,7 +51,7 @@
     <script src="../../common/js/prefixfree.min.js"></script>
     <script src="https://kit.fontawesome.com/43cec56aae.js" crossorigin="anonymous"></script>
 	<script>
-    function del(href) //delete.php?num=1
+    function del(href)
     {
         if(confirm("한번 삭제한 자료는 복구할 방법이 없습니다.\n\n정말 삭제하시겠습니까?")) {
                 document.location.href = href;

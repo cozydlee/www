@@ -22,13 +22,5 @@ echo "<script>
          location.href='../sub6/sub6_2.html' ;
 </script>
 "
-  
 
-  /*
-  echo '이름:'.$name_01.'<br />';
-  echo '메일:'.$mail_02.'<br />';
-  echo '메일:'.$phone_03.'<br />';
-  echo '내용:'.$msg_04.'<br />';
-  echo '메일이 성공적으로 전송되었습니다<br />';
-  */
 ?>

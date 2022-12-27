@@ -19,10 +19,10 @@
 
    for ($i=0; $i<3; $i++)
    {
-		if ($copied_name[$i]) //첨부된 파일이 있으면
+		if ($copied_name[$i])
 	   {
-			$image_name = "./data/".$copied_name[$i];   // './data/(날짜일시_번호).jpg'
-			unlink($image_name); //서버에 있는 파일을 삭제!
+			$image_name = "./data/".$copied_name[$i];
+			unlink($image_name);
 	   }
    }
 

@@ -4,7 +4,6 @@
 	min-height:558px;
 	float:left;
 	margin-left:15px;
-/*	border:solid 1px #cccccc; */
 }
 
 #content #col2 #title{
@@ -13,7 +12,6 @@
 	border-bottom:solid 1px #cccccc;
 }
 
-/* list css */
 
 #list_search {
 	font-size: 1.3em;
@@ -190,7 +188,6 @@
     margin-left: 10px;}
 .lst_mode li:nth-child(2).active a{color: #edad14;}
 
-/* box mode */
 
 #list_top_title ul.box{display: none;}
 
@@ -255,7 +252,6 @@
 	display: contents;
 }
 
-/* write_form css */
 
 #write_form_title {
 	margin-top:20px;
@@ -355,7 +351,6 @@
 
 #write_button button{font-size: .9em}
 
-/* view.php css */
 
 #view_comment {
 	margin:10px 0 0 10px;

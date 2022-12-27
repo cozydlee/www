@@ -128,7 +128,7 @@ function check_input4(){
     }
    }
 
- function check_input7()    //저장하기 버튼 클릭시 검사
+ function check_input7()
    {
      var emailID = document.member_form.email2.value;
      var dotpos = emailID.lastIndexOf(".");

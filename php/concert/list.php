@@ -24,7 +24,7 @@
 
 	include "../lib/dbconn.php";
 	if(!$scale)
-	$scale=10;			// 한 화면에 표시되는 글 수
+	$scale=10;
 
     if ($mode=="search")
 	{
@@ -58,18 +58,16 @@
 
 	$result = mysql_query($sql, $connect);
 
-	$total_record = mysql_num_rows($result); // 전체 글 수
+	$total_record = mysql_num_rows($result);
 
-	// 전체 페이지 수($total_page) 계산 
 	if ($total_record % $scale == 0)     
 		$total_page = floor($total_record/$scale);      
 	else
 		$total_page = floor($total_record/$scale) + 1; 
  
-	if (!$page)                 // 페이지번호($page)가 0 일 때
-		$page = 1;              // 페이지 번호를 1로 초기화
+	if (!$page)
+		$page = 1;
  
-	// 표시할 페이지($page)에 따라 $start 계산  
 	$start = ($page - 1) * $scale;      
 	$number = $total_record - $start;
 ?>
@@ -147,9 +145,7 @@
    for ($i=$start; $i<$start+$scale && $i < $total_record; $i++)                    
    {
       mysql_data_seek($result, $i);       
-      // 가져올 레코드로 위치(포인터) 이동  
       $row = mysql_fetch_array($result);       
-      // 하나의 레코드 가져오기
 	
 	  $item_num     = $row[num];
 	  $item_id      = $row[id];
@@ -183,10 +179,9 @@
 			<div id="page_button">
 				<div id="page_num"> ◀ 이전 &nbsp;&nbsp;&nbsp;&nbsp; 
 <?
-   // 게시판 목록 하단에 페이지 링크 번호 출력
    for ($i=1; $i<=$total_page; $i++)
    {
-		if ($page == $i)     // 현재 페이지 번호 링크 안함
+		if ($page == $i) 
 		{
 			echo "<b> $i </b>";
 		}
@@ -209,8 +204,8 @@
 	}
 ?>
 				</div>
-			</div> <!-- end of page_button -->		
-        </div> <!-- end of list content -->
+			</div>
+        </div>
 		<div class="clear"></div>
 
 		</div>

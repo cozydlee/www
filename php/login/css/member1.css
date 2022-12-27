@@ -43,7 +43,6 @@ ul li i{margin-right: 8px}
 #join_button{position: relative; margin-top: 50px}
 #join_button::before{content: ''; width: 500px; height: 1px; background: #ccc; position: absolute; top: -20px; left: 50%; margin-left: -250px}    
 
-/*find*/
 .telBox {clear: both;margin: -20px 0}
 .telBox select {width: 135px; border: 0px; font-size: 18px; color: #777; height: 60px; height: 50px; padding: 7px}
 .telBox input{width: 135px; display: inline}

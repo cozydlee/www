@@ -25,10 +25,8 @@
     $("input").css({background:'#f0f0f0'})
  })
    
- //id 중복검사
- $("#id").keyup(function() {    // id입력 상자에 id값 입력시
-    var id = $('#id').val(); //aaa
-
+ $("#id").keyup(function() {   
+    var id = $('#id').val();
     $.ajax({
         type: "POST",
         url: "check_id.php",
@@ -41,8 +39,7 @@
     });
 });
 		 
-//nick 중복검사		 
-$("#nick").keyup(function() {    // id입력 상자에 id값 입력시
+$("#nick").keyup(function() { 
     var nick = $('#nick').val();
 
     $.ajax({
@@ -152,7 +149,6 @@ $("#nick").keyup(function() {    // id입력 상자에 id값 입력시
       }
 
       document.member_form.submit(); 
-		   // insert.php 로 변수 전송
    }
 
    function reset_form()

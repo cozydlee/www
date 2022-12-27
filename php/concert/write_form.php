@@ -1,19 +1,13 @@
 <? 
 	session_start();
 
-	//새글쓰기
-	//$table='concert'
-
-	//수정글쓰기
-	//$table='concert' , $cum=1 , $mode="modify"
-
 	@extract($_POST);
 	@extract($_GET);
 	@extract($_SESSION);
 	
 	include "../lib/dbconn.php";
 
-	if ($mode=="modify")  //수정 글쓰기 
+	if ($mode=="modify")
 	{
 		$sql = "select * from $table where num=$num";
 		$result = mysql_query($sql, $connect);

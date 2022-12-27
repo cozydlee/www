@@ -11,7 +11,6 @@
 	$result = mysql_query($sql, $connect);
 
     $row = mysql_fetch_array($result);       
-      // 하나의 레코드 가져오기
 	
 	$item_num     = $row[num];
 	$item_id      = $row[id];
@@ -42,28 +41,21 @@
 		$item_content = str_replace("\n", "<br>", $item_content);
 	}
 	
-	//첨부된 이미지 가져오기
-	for ($i=0; $i<4; $i++) // 0~2
+	for ($i=0; $i<4; $i++)
 	{
-		if ($image_copied[$i])  //첨부된 이미지가 있으면 
+		if ($image_copied[$i])
 		{
 			$imageinfo = GetImageSize("./data/".$image_copied[$i]);
-			//배열로 리턴 [이미지너비,이미지높이,이미지타입]
 
-			$image_width[$i] = $imageinfo[0];  //이미지너비
-			$image_height[$i] = $imageinfo[1];  //이미지높이
-			$image_type[$i]  = $imageinfo[2];   //이미지종류
+			$image_width[$i] = $imageinfo[0]; 
+			$image_height[$i] = $imageinfo[1]; 
+			$image_type[$i]  = $imageinfo[2];   
 
 			$image_width[$i] = 500;
 			$image_height[$i] = 600;
 
-			// if ($image_width[$i] > 500) //이미지 너비를 제한
-			// 	$image_width[$i] = 500;
-
-			// if ($image_height[$i] > 600) //이미지 너비를 제한
-			// 	$image_height[$i] = 600;
 		}
-		else // 첨부된 이미지가 없으면 
+		else 
 		{
 			$image_width[$i] = "";
 			$image_height[$i] = "";
@@ -73,7 +65,7 @@
 
 	$new_hit = $item_hit + 1;
 
-	$sql = "update $table set hit=$new_hit where num=$num";   // 글 조회수 증가시킴
+	$sql = "update $table set hit=$new_hit where num=$num";
 	mysql_query($sql, $connect);
 ?>
 <!DOCTYPE HTML>
@@ -138,13 +130,12 @@
 		{
 			if ($image_copied[$i])
 			{
-				$img_name = $image_copied[$i]; //(날짜일시_번호).jpg
-				$img_name = "./data/".$img_name; //./data/(날짜일시_번호).jpg
+				$img_name = $image_copied[$i];
+				$img_name = "./data/".$img_name; 
 				$img_width = $image_width[$i];
 				$img_height = $image_height[$i];
 				
 				echo "<img src='$img_name' width='$img_width' height='$img_height'>";
-				// ."<br><br>";
 			}
 		}
 	?>
