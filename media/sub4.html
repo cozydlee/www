@@ -62,22 +62,21 @@
 					<h3>GALLERY</h3>
 					<div class="grid">
 						<div class="grid-sizer"></div>
-						<div class="grid-item"><img src="./gallery/gallery1.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery2.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery3.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery4.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery5.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery6.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery7.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery8.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery9.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery10.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery11.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery12.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery13.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery14.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery15.jpg"></div>
-						<div class="grid-item"><img src="./gallery/gallery16.jpg"></div>
+						<div><img class="grid-item" src="./gallery/gallery1.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery2.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery3.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery4.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery5.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery6.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery7.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery8.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery9.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery10.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery11.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery13.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery14.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery15.jpg"></div>
+						<div ><img class="grid-item" src="./gallery/gallery16.jpg"></div>
 					  </div> 
 			</section>
 	</article>
@@ -95,13 +94,16 @@
 <script src="js/imgBG.js"></script>
 <script src="./js/nav.js"></script>
 <script src="./js/scrollsub.js"></script>
-<script src="./js/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<!-- <script src="./js/masonry.pkgd.min.js"></script> -->
 <script>
-	$('.grid').masonry({
-	  itemSelector: '.grid-item',
-	  columnWidth: '.grid-sizer',
-	  percentPosition: true,
-	});
+var $grid = $('.grid').imagesLoaded( function() {
+$('.grid').masonry({
+  itemSelector: '.grid-item',
+  columnWidth: '.grid-sizer',
+  percentPosition: true
+});
+});
 </script>
 </body>
 </html>
