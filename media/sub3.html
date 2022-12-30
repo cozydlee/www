@@ -12,7 +12,6 @@
 
 
 <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
-<link rel="stylesheet" href="css/plyr.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/layout_sub.css">
@@ -20,13 +19,11 @@
 <script src="js/prefixfree.min.js"></script>
 <script src="https://kit.fontawesome.com/43cec56aae.js" crossorigin="anonymous"></script>
 <script>
-	// <![CDATA[
 		try {
 			window.addEventListener('load', function(){
 	    	    setTimeout(scrollTo, 0, 0, 1); 
 	    	}, false);
 		} catch(e) {}
-	// ]]>
 </script>
 </head>
 
@@ -85,12 +82,14 @@
 							</div>
 						</div>
 						<div class="swiper-pagination"></div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
  					</div>
 			</section>
 			<section class="album">
 					<h3>ALBUM</h3>
 					<div id="container">
-						<div id="player" data-plyr-provider="youtube" data-plyr-embed-id="AXWJxbWfKls"></div>
+						<div id="ytplayer"></div>
 					</div>
 					<div class="song_list">
 					</div>
@@ -110,7 +109,6 @@
 <script src="js/imgBG.js"></script>
 <script src="./js/nav.js"></script>
 <script src="./js/scrollsub.js"></script>
-<script src="https://cdn.plyr.io/3.7.2/plyr.js"></script>
 <script src="./js/youtube.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="./js/page.js"></script>

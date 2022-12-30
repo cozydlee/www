@@ -1,7 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Monoton&family=Sansita:wght@400;700&display=swap');
 
-/* Reset CSS  */
 * { margin:0; padding:0; border:0; outline:0; vertical-align:top;
 -webkit-text-size-adjust:none;  }
 html{font-size: 16px;}
@@ -21,13 +20,6 @@ p,li,dd{ line-height:1.5em}
 .hidden, #skipNav{display: block; position: absolute; left:-1000%; top:0; width: 1px; height: 1px;
     overflow: hidden; color: #f0f0f0;}
 
-    /* font-family: 'Covered By Your Grace', cursive;
-    font-family: 'Monoton', cursive;
-    font-family: 'Sansita', sans-serif; */
-
-/* 와이드PC 1280px~ */
-
-/* 헤더 공통 영역 */
 #wrap{width:100%; overflow: hidden;}
 #headerArea{position:fixed; z-index: 30; height: 100px;left:0; top: 0;
     width: 100%; transition: all .4s ease-in-out;}	
@@ -63,9 +55,6 @@ p,li,dd{ line-height:1.5em}
     position: fixed;
     z-index: 50;}
 #pause{margin-left: 25px;}
-
-
-/* 푸터 공통 영역 */
 
 #footerArea{width: 100%;
     background: #6b0705;
@@ -104,17 +93,14 @@ p,li,dd{ line-height:1.5em}
  #footerArea >p{font-size: 1.5rem; font-family: 'Monoton', cursive; font-weight: 400;
     margin-top: 20px;}
 
-/* 일반 pc */
 @media screen and (max-width:1280px) {
 	
 }
 
-/* 테블릿 */
 @media screen and (max-width:1024px) {
 	
 }
 
-/* 소형 테블릿 */
 @media screen and (max-width:768px) {
     #headerArea .menubtn{ display:block; position:absolute; top:25px; right:10px; font-size: 2rem; color: #f0f0f0;}
     #gnb{ clear:both; width:70%; height:1500px; position:absolute; right:-100%; top:-25px;
@@ -135,11 +121,9 @@ p,li,dd{ line-height:1.5em}
     #footerArea img:nth-child(3){display: inline;}
 }
 
-/* 모바일 */
 @media screen and (max-width:640px) {
 }
 
-/* 최소 사이즈 처리 */
 @media screen and (max-width:480px) {
 	#wrap { min-width:320px; }
 }

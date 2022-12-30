@@ -14,7 +14,7 @@ $(document).ready(function() {
    
    
    var current=0;
-   $(window).resize(function(){    //웹브라우저 크기 조절시 반응하는 이벤트 메소드()
+   $(window).resize(function(){ 
       var screenSize = $(window).width(); 
       if( screenSize > 769){
         current=1;
